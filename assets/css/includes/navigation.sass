@@ -1,0 +1,90 @@
+.navigation-wrapper
+  display: flex
+  justify-content: space-between
+  .logo
+    height: 150px
+    display: flex
+    align-items: center
+    width: 300px
+    background:
+      image: url('/assets/images/bluhare-logo.png')
+      repeat: no-repeat
+      size: contain
+      position: bottom
+  .desktop-nav-container
+    display: flex
+    justify-content: flex-end
+    flex-direction: column
+    .desktop-nav
+      list-style: none
+    ul
+      margin: 0px
+      .desktop-nav-item
+        display: inline
+        padding: 0px 10px
+        font-size: 13pt
+        letter-spacing: 0.25px
+        &:nth-child(5)
+          padding-right: 0px
+  .mobile-nav
+    display: none
+    flex-direction: column
+    list-style: none
+    margin-top: 15px
+  ul
+    margin: 0px
+    .mobile-nav-item
+      font-size: 12px
+      padding: 8px 0px
+      text-align: right
+      margin-right: 25px
+  .hamburger
+    display: none
+    flex-direction: column
+    justify-content: space-between
+    position: absolute
+    right: 0
+    height: 17px
+    width: 30px
+    margin-top: 5px
+    margin-right: 15px
+    .line1, .line2, .line3
+      height: 1px
+      width: 30px
+      background: $medgrey
+.active
+  display: flex !important
+
+@media (max-width: 1005px)
+  .navigation-wrapper
+    .logo
+      margin-top: 10px
+    .desktop-nav-container
+      .desktop-nav
+        .desktop-nav-item
+          &:nth-child(5)
+            padding-right: 15px
+
+
+@media (max-width: 800px)
+  .navigation-wrapper
+    .logo
+      height: 80px
+      width: 250px
+    .desktop-nav-container
+      .desktop-nav
+        margin-right: 15px
+        .desktop-nav-item
+          font-size: 10pt
+          padding: 0px 6px
+@media (max-width: 680px)
+  .navigation-wrapper
+    flex-direction: column
+    .logo
+      height: 60px
+      width: 200px
+      .hamburger
+        display: flex
+    .desktop-nav-container
+      .desktop-nav
+        display: none
