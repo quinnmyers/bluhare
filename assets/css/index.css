@@ -569,6 +569,11 @@ p, h1, h2, h3, h4, h5, h6 {
         letter-spacing: 0.25px; }
         .navigation-wrapper .desktop-nav-container ul .desktop-nav-item:nth-child(5) {
           padding-right: 0px; }
+        .navigation-wrapper .desktop-nav-container ul .desktop-nav-item a {
+          text-decoration: none;
+          color: black; }
+        .navigation-wrapper .desktop-nav-container ul .desktop-nav-item a:hover {
+          color: #84DAFE; }
   .navigation-wrapper .mobile-nav {
     display: none;
     flex-direction: column;
@@ -581,6 +586,11 @@ p, h1, h2, h3, h4, h5, h6 {
       padding: 8px 0px;
       text-align: right;
       margin-right: 25px; }
+      .navigation-wrapper ul .mobile-nav-item a {
+        text-decoration: none;
+        color: black; }
+      .navigation-wrapper ul .mobile-nav-item a:hover {
+        color: #84DAFE; }
   .navigation-wrapper .hamburger {
     display: none;
     flex-direction: column;
