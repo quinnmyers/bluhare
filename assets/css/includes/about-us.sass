@@ -27,7 +27,6 @@
         padding: 25px
         line-height: 25px
 
-
   .meet-ceo-container
     display: flex
     flex-direction: column
@@ -59,6 +58,7 @@
         line-height: 25px
         .strong
           text-decoration: underline
+
   .gemini-digital-container
     display: flex
     flex-direction: column
@@ -66,6 +66,7 @@
     margin-top: 10px
     .gemini-logo
       display: flex
+      align-self: center
       height: 0
       padding-top: 6%
       margin-bottom: 15px
@@ -93,8 +94,18 @@
       .gemini-text
         padding: 25px
         line-height: 25px
-  .spacer
-    height: 1000px
+    .wildhare-logo
+      display: flex
+      align-self: center
+      margin-top: 25px
+      height: 120px
+      width: 400px
+      background:
+        image: url(/assets/images/wildhare-logo.png)
+        size: contain
+        position: center
+        repeat: no-repeat
+
 
 @media(max-width: 1000px)
   .main-wrapper
@@ -144,3 +155,7 @@
           width: 100%
           margin-right: 0px
           margin-top: 25px
+
+@media(max-width: 500px)
+  .wildhare-logo
+    height: 100px !important

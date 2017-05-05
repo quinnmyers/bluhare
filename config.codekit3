@@ -733,6 +733,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/assets\/images\/wildhare-logo.png": {
+		"ft": 32768,
+		"iS": 17230,
+		"oA": 0,
+		"oAP": "\/assets\/images\/wildhare-logo.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/assets\/js\/app-min.js": {
 		"ft": 64,
 		"mi": 1,
