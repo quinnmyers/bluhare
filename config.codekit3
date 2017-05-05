@@ -328,6 +328,78 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/assets\/images\/featured-games\/11_88_delights.png": {
+		"ft": 32768,
+		"iS": 372108,
+		"oA": 0,
+		"oAP": "\/assets\/images\/featured-games\/11_88_delights.png",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/featured-games\/12_88_delights_dlx.png": {
+		"ft": 32768,
+		"iS": 419329,
+		"oA": 0,
+		"oAP": "\/assets\/images\/featured-games\/12_88_delights_dlx.png",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/featured-games\/13_first_emperor.png": {
+		"ft": 32768,
+		"iS": 7684650,
+		"oA": 0,
+		"oAP": "\/assets\/images\/featured-games\/13_first_emperor.png",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/featured-games\/14_baker_st.png": {
+		"ft": 32768,
+		"iS": 7692543,
+		"oA": 0,
+		"oAP": "\/assets\/images\/featured-games\/14_baker_st.png",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/featured-games\/15_cinderella.png": {
+		"ft": 32768,
+		"iS": 7730146,
+		"oA": 0,
+		"oAP": "\/assets\/images\/featured-games\/15_cinderella.png",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/featured-games\/16_carnevale.png": {
+		"ft": 32768,
+		"iS": 7727980,
+		"oA": 0,
+		"oAP": "\/assets\/images\/featured-games\/16_carnevale.png",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/featured-games\/17_lotus_fortune.png": {
+		"ft": 32768,
+		"iS": 375072,
+		"oA": 0,
+		"oAP": "\/assets\/images\/featured-games\/17_lotus_fortune.png",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/featured-games\/18_majestic_fortune.png": {
+		"ft": 32768,
+		"iS": 7714989,
+		"oA": 0,
+		"oAP": "\/assets\/images\/featured-games\/18_majestic_fortune.png",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/featured-games\/19_noble_musketeers.png": {
+		"ft": 32768,
+		"iS": 7733016,
+		"oA": 0,
+		"oAP": "\/assets\/images\/featured-games\/19_noble_musketeers.png",
+		"oF": 0,
+		"opt": 1
+		},
 	"\/assets\/images\/featured-games\/1_tinseltown\/tinsel_1.jpg": {
 		"ft": 16384,
 		"iS": 191276,
@@ -343,6 +415,70 @@
 		"oAP": "\/assets\/images\/featured-games\/1_tinseltown\/tinsel_cover.png",
 		"oF": 0,
 		"opt": 0
+		},
+	"\/assets\/images\/featured-games\/20_poseidon.png": {
+		"ft": 32768,
+		"iS": 7708588,
+		"oA": 0,
+		"oAP": "\/assets\/images\/featured-games\/20_poseidon.png",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/featured-games\/21_casanova.png": {
+		"ft": 32768,
+		"iS": 7718324,
+		"oA": 0,
+		"oAP": "\/assets\/images\/featured-games\/21_casanova.png",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/featured-games\/22_eureka.png": {
+		"ft": 32768,
+		"iS": 7751365,
+		"oA": 0,
+		"oAP": "\/assets\/images\/featured-games\/22_eureka.png",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/featured-games\/23_fancy.png": {
+		"ft": 32768,
+		"iS": 7680132,
+		"oA": 0,
+		"oAP": "\/assets\/images\/featured-games\/23_fancy.png",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/featured-games\/24_giza.png": {
+		"ft": 32768,
+		"iS": 7645644,
+		"oA": 0,
+		"oAP": "\/assets\/images\/featured-games\/24_giza.png",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/featured-games\/25_hades.png": {
+		"ft": 32768,
+		"iS": 7707714,
+		"oA": 0,
+		"oAP": "\/assets\/images\/featured-games\/25_hades.png",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/featured-games\/26_ridotto.png": {
+		"ft": 32768,
+		"iS": 7699034,
+		"oA": 0,
+		"oAP": "\/assets\/images\/featured-games\/26_ridotto.png",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/featured-games\/27_zeus.png": {
+		"ft": 32768,
+		"iS": 7691974,
+		"oA": 0,
+		"oAP": "\/assets\/images\/featured-games\/27_zeus.png",
+		"oF": 0,
+		"opt": 1
 		},
 	"\/assets\/images\/featured-games\/2_hanabi_taikai\/hanabi_1.jpg": {
 		"ft": 16384,
@@ -522,15 +658,23 @@
 		},
 	"\/assets\/images\/main-slider\/main-slider-1.jpg": {
 		"ft": 16384,
-		"iS": 310306,
+		"iS": 462975,
 		"oA": 0,
 		"oAP": "\/assets\/images\/main-slider\/main-slider-1.jpg",
 		"oF": 0,
 		"opt": 0
 		},
+	"\/assets\/images\/main-slider\/main-slider-12342.jpg": {
+		"ft": 16384,
+		"iS": 310306,
+		"oA": 0,
+		"oAP": "\/assets\/images\/main-slider\/main-slider-12342.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/assets\/images\/main-slider\/main-slider-2.jpg": {
 		"ft": 16384,
-		"iS": 611824,
+		"iS": 220084,
 		"oA": 0,
 		"oAP": "\/assets\/images\/main-slider\/main-slider-2.jpg",
 		"oF": 0,
@@ -538,9 +682,25 @@
 		},
 	"\/assets\/images\/main-slider\/main-slider-3.jpg": {
 		"ft": 16384,
-		"iS": 600165,
+		"iS": 209776,
 		"oA": 0,
 		"oAP": "\/assets\/images\/main-slider\/main-slider-3.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/main-slider\/main-slider-4.jpg": {
+		"ft": 16384,
+		"iS": 646710,
+		"oA": 0,
+		"oAP": "\/assets\/images\/main-slider\/main-slider-4.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/main-slider\/main-slider-5.jpg": {
+		"ft": 16384,
+		"iS": 181633,
+		"oA": 0,
+		"oAP": "\/assets\/images\/main-slider\/main-slider-5.jpg",
 		"oF": 0,
 		"opt": 0
 		},

@@ -8,6 +8,7 @@ $(document).ready(function () {
     loop:true,
     autoplay: true,
     autoplayTimeout: 5000,
+    speed: 2000,
     margin:10,
     nav:false,
     items:1,

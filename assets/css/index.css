@@ -861,14 +861,15 @@ p, h1, h2, h3, h4, h5, h6 {
 @media (max-width: 1000px) {
   .main-wrapper {
     width: 100vw !important; }
+  .page-title {
+    margin-left: 15px !important; }
   .page-break {
-    width: 100vw !important; } }
+    width: 100% !important; } }
 
 .main-wrapper .main-carousel-container {
   display: flex;
   height: auto;
-  width: 1000px;
-  background: khaki; }
+  width: 1000px; }
   .main-wrapper .main-carousel-container .owl-carousel.owl-theme {
     display: flex;
     flex-direction: column; }
@@ -879,7 +880,6 @@ p, h1, h2, h3, h4, h5, h6 {
       width: 1000px;
       height: 0;
       padding-top: 41.6%;
-      background: red;
       flex-grow: yes; }
     .main-wrapper .main-carousel-container .owl-carousel.owl-theme .slide1, .main-wrapper .main-carousel-container .owl-carousel.owl-theme .slide2, .main-wrapper .main-carousel-container .owl-carousel.owl-theme .slide3 {
       background-repeat: no-repeat;
@@ -893,6 +893,10 @@ p, h1, h2, h3, h4, h5, h6 {
       background-image: url(/assets/images/main-slider/main-slider-2.jpg); }
     .main-wrapper .main-carousel-container .owl-carousel.owl-theme .slide3 {
       background-image: url(/assets/images/main-slider/main-slider-3.jpg); }
+    .main-wrapper .main-carousel-container .owl-carousel.owl-theme .slide4 {
+      background-image: url(/assets/images/main-slider/main-slider-4.jpg); }
+    .main-wrapper .main-carousel-container .owl-carousel.owl-theme .slide5 {
+      background-image: url(/assets/images/main-slider/main-slider-5.jpg); }
     .main-wrapper .main-carousel-container .owl-carousel.owl-theme .main-slide-title {
       color: white;
       font-family: "Questrial", sans-serif;
@@ -995,8 +999,7 @@ p, h1, h2, h3, h4, h5, h6 {
 .main-wrapper .bottom-carousel-container {
   display: flex;
   height: auto;
-  width: 500px;
-  background: khaki; }
+  width: 500px; }
   .main-wrapper .bottom-carousel-container .owl-carousel.owl-theme {
     display: flex;
     flex-direction: column; }
@@ -1009,7 +1012,6 @@ p, h1, h2, h3, h4, h5, h6 {
       width: 100px;
       height: 0;
       padding-top: 60%;
-      background: red;
       flex-grow: yes; }
     .main-wrapper .bottom-carousel-container .owl-carousel.owl-theme .slide1, .main-wrapper .bottom-carousel-container .owl-carousel.owl-theme .slide2, .main-wrapper .bottom-carousel-container .owl-carousel.owl-theme .slide3, .main-wrapper .bottom-carousel-container .owl-carousel.owl-theme .slide4, .main-wrapper .bottom-carousel-container .owl-carousel.owl-theme .slide5, .main-wrapper .bottom-carousel-container .owl-carousel.owl-theme .slide6 {
       background-repeat: no-repeat;
@@ -1040,7 +1042,6 @@ p, h1, h2, h3, h4, h5, h6 {
     width: 100%;
     height: 0;
     padding-top: 41.6%;
-    background: red;
     flex-grow: yes; }
   .main-wrapper .owl-carousel.owl-theme .slide1, .main-wrapper .owl-carousel.owl-theme .slide2, .main-wrapper .owl-carousel.owl-theme .slide3 {
     background-repeat: no-repeat;
@@ -1179,6 +1180,7 @@ p, h1, h2, h3, h4, h5, h6 {
     display: flex;
     align-items: center;
     width: 300px;
+    margin-left: 10px;
     background-image: url("/assets/images/bluhare-logo.png");
     background-repeat: no-repeat;
     background-size: contain;
@@ -1268,15 +1270,13 @@ p, h1, h2, h3, h4, h5, h6 {
 .about-us-wrapper {
   display: flex;
   flex-direction: column;
-  height: auto;
-  background: khaki; }
+  height: auto; }
   .about-us-wrapper .about-us-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     height: auto;
-    margin-bottom: 25px;
-    background: pink; }
+    margin-bottom: 25px; }
     .about-us-wrapper .about-us-container .about-left-container {
       height: 400px;
       width: 40%;
@@ -1334,7 +1334,6 @@ p, h1, h2, h3, h4, h5, h6 {
       padding-top: 6%;
       margin-bottom: 15px;
       width: 500px;
-      background-color: red;
       background-image: url("/assets/images/gemini-logo.jpg");
       background-position: center;
       background-repeat: no-repeat;
@@ -1361,9 +1360,10 @@ p, h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 1000px) {
   .main-wrapper .about-us-wrapper {
+    font-size: 12pt;
     width: 100vw; }
     .main-wrapper .about-us-wrapper .about-us-container, .main-wrapper .about-us-wrapper .meet-ceo-container, .main-wrapper .about-us-wrapper .gemini-digital-container {
-      width: 100vw; }
+      width: 100%; }
       .main-wrapper .about-us-wrapper .about-us-container .about-left-container, .main-wrapper .about-us-wrapper .meet-ceo-container .about-left-container, .main-wrapper .about-us-wrapper .gemini-digital-container .about-left-container {
         align-self: center;
         margin-left: 15px;
@@ -1388,6 +1388,20 @@ p, h1, h2, h3, h4, h5, h6 {
       margin-right: 15px !important;
       width: auto; } }
 
+@media (max-width: 700px) {
+  .main-wrapper .about-us-wrapper {
+    width: 100vw; }
+    .main-wrapper .about-us-wrapper .about-us-container {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0px 15px;
+      box-sizing: border-box; }
+      .main-wrapper .about-us-wrapper .about-us-container .about-right-container {
+        width: 100%;
+        margin-right: 0px;
+        margin-top: 25px; } }
+
 .main-wrapper .our-work {
   display: flex;
   flex-direction: column;
@@ -1405,7 +1419,7 @@ p, h1, h2, h3, h4, h5, h6 {
       .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-1, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-2, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-3,
       .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-4, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-5, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-6,
       .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-7, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-8, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-9,
-      .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-10, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-11, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-12 {
+      .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-10, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-11, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-12, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-13, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-14, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-15, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-16, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-17, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-18, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-19, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-20, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-21, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-22, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-23, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-24, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-25, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-26, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-27 {
         display: flex;
         height: 250px;
         width: 250px; }
@@ -1439,6 +1453,57 @@ p, h1, h2, h3, h4, h5, h6 {
       .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-10 {
         background-image: url(../images/featured-games/10_gladiators_gold/glad_gold_cover.png);
         background-size: cover; }
+      .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-11 {
+        background-image: url(../images/featured-games/11_88_delights.png);
+        background-size: cover; }
+      .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-12 {
+        background-image: url(../images/featured-games/12_88_delights_dlx.png);
+        background-size: cover; }
+      .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-13 {
+        background-image: url(../images/featured-games/13_first_emperor.png);
+        background-size: cover; }
+      .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-14 {
+        background-image: url(../images/featured-games/14_baker_st.png);
+        background-size: cover; }
+      .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-15 {
+        background-image: url(../images/featured-games/15_cinderella.png);
+        background-size: cover; }
+      .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-16 {
+        background-image: url(../images/featured-games/16_carnevale.png);
+        background-size: cover; }
+      .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-17 {
+        background-image: url(../images/featured-games/17_lotus_fortune.png);
+        background-size: cover; }
+      .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-18 {
+        background-image: url(../images/featured-games/18_majestic_fortune.png);
+        background-size: cover; }
+      .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-19 {
+        background-image: url(../images/featured-games/19_noble_musketeers.png);
+        background-size: cover; }
+      .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-20 {
+        background-image: url(../images/featured-games/20_poseidon.png);
+        background-size: cover; }
+      .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-21 {
+        background-image: url(../images/featured-games/21_casanova.png);
+        background-size: cover; }
+      .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-22 {
+        background-image: url(../images/featured-games/22_eureka.png);
+        background-size: cover; }
+      .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-23 {
+        background-image: url(../images/featured-games/23_fancy.png);
+        background-size: cover; }
+      .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-24 {
+        background-image: url(../images/featured-games/24_giza.png);
+        background-size: cover; }
+      .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-25 {
+        background-image: url(../images/featured-games/25_hades.png);
+        background-size: cover; }
+      .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-26 {
+        background-image: url(../images/featured-games/26_ridotto.png);
+        background-size: cover; }
+      .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-27 {
+        background-image: url(../images/featured-games/27_zeus.png);
+        background-size: cover; }
 
 @media (max-width: 1000px) {
   .main-wrapper .featured-titles-container .featured-title-row {
@@ -1446,7 +1511,12 @@ p, h1, h2, h3, h4, h5, h6 {
     .main-wrapper .featured-titles-container .featured-title-row .featured-title-1, .main-wrapper .featured-titles-container .featured-title-row .featured-title-2, .main-wrapper .featured-titles-container .featured-title-row .featured-title-3,
     .main-wrapper .featured-titles-container .featured-title-row .featured-title-4, .main-wrapper .featured-titles-container .featured-title-row .featured-title-5, .main-wrapper .featured-titles-container .featured-title-row .featured-title-6,
     .main-wrapper .featured-titles-container .featured-title-row .featured-title-7, .main-wrapper .featured-titles-container .featured-title-row .featured-title-8, .main-wrapper .featured-titles-container .featured-title-row .featured-title-9,
-    .main-wrapper .featured-titles-container .featured-title-row .featured-title-10, .main-wrapper .featured-titles-container .featured-title-row .featured-title-11, .main-wrapper .featured-titles-container .featured-title-row .featured-title-12 {
+    .main-wrapper .featured-titles-container .featured-title-row .featured-title-10, .main-wrapper .featured-titles-container .featured-title-row .featured-title-11, .main-wrapper .featured-titles-container .featured-title-row .featured-title-12,
+    .main-wrapper .featured-titles-container .featured-title-row .featured-title-13, .main-wrapper .featured-titles-container .featured-title-row .featured-title-14, .main-wrapper .featured-titles-container .featured-title-row .featured-title-15,
+    .main-wrapper .featured-titles-container .featured-title-row .featured-title-16, .main-wrapper .featured-titles-container .featured-title-row .featured-title-17, .main-wrapper .featured-titles-container .featured-title-row .featured-title-18,
+    .main-wrapper .featured-titles-container .featured-title-row .featured-title-19, .main-wrapper .featured-titles-container .featured-title-row .featured-title-20, .main-wrapper .featured-titles-container .featured-title-row .featured-title-21,
+    .main-wrapper .featured-titles-container .featured-title-row .featured-title-22, .main-wrapper .featured-titles-container .featured-title-row .featured-title-23, .main-wrapper .featured-titles-container .featured-title-row .featured-title-24,
+    .main-wrapper .featured-titles-container .featured-title-row .featured-title-25, .main-wrapper .featured-titles-container .featured-title-row .featured-title-26, .main-wrapper .featured-titles-container .featured-title-row .featured-title-27 {
       height: 200px !important;
       width: 200px !important; } }
 
@@ -1454,7 +1524,12 @@ p, h1, h2, h3, h4, h5, h6 {
   .main-wrapper .featured-titles-container .featured-title-1, .main-wrapper .featured-titles-container .featured-title-2, .main-wrapper .featured-titles-container .featured-title-3,
   .main-wrapper .featured-titles-container .featured-title-4, .main-wrapper .featured-titles-container .featured-title-5, .main-wrapper .featured-titles-container .featured-title-6,
   .main-wrapper .featured-titles-container .featured-title-7, .main-wrapper .featured-titles-container .featured-title-8, .main-wrapper .featured-titles-container .featured-title-9,
-  .main-wrapper .featured-titles-container .featured-title-10, .main-wrapper .featured-titles-container .featured-title-11, .main-wrapper .featured-titles-container .featured-title-12 {
+  .main-wrapper .featured-titles-container .featured-title-10, .main-wrapper .featured-titles-container .featured-title-11, .main-wrapper .featured-titles-container .featured-title-12,
+  .main-wrapper .featured-titles-container .featured-title-13, .main-wrapper .featured-titles-container .featured-title-14, .main-wrapper .featured-titles-container .featured-title-15,
+  .main-wrapper .featured-titles-container .featured-title-16, .main-wrapper .featured-titles-container .featured-title-17, .main-wrapper .featured-titles-container .featured-title-18,
+  .main-wrapper .featured-titles-container .featured-title-19, .main-wrapper .featured-titles-container .featured-title-20, .main-wrapper .featured-titles-container .featured-title-21,
+  .main-wrapper .featured-titles-container .featured-title-22, .main-wrapper .featured-titles-container .featured-title-23, .main-wrapper .featured-titles-container .featured-title-24,
+  .main-wrapper .featured-titles-container .featured-title-25, .main-wrapper .featured-titles-container .featured-title-26, .main-wrapper .featured-titles-container .featured-title-27 {
     height: 175px !important;
     width: 175px !important; } }
 
@@ -1462,7 +1537,12 @@ p, h1, h2, h3, h4, h5, h6 {
   .main-wrapper .featured-titles-container .featured-title-1, .main-wrapper .featured-titles-container .featured-title-2, .main-wrapper .featured-titles-container .featured-title-3,
   .main-wrapper .featured-titles-container .featured-title-4, .main-wrapper .featured-titles-container .featured-title-5, .main-wrapper .featured-titles-container .featured-title-6,
   .main-wrapper .featured-titles-container .featured-title-7, .main-wrapper .featured-titles-container .featured-title-8, .main-wrapper .featured-titles-container .featured-title-9,
-  .main-wrapper .featured-titles-container .featured-title-10, .main-wrapper .featured-titles-container .featured-title-11, .main-wrapper .featured-titles-container .featured-title-12 {
+  .main-wrapper .featured-titles-container .featured-title-10, .main-wrapper .featured-titles-container .featured-title-11, .main-wrapper .featured-titles-container .featured-title-12,
+  .main-wrapper .featured-titles-container .featured-title-13, .main-wrapper .featured-titles-container .featured-title-14, .main-wrapper .featured-titles-container .featured-title-15,
+  .main-wrapper .featured-titles-container .featured-title-16, .main-wrapper .featured-titles-container .featured-title-17, .main-wrapper .featured-titles-container .featured-title-18,
+  .main-wrapper .featured-titles-container .featured-title-19, .main-wrapper .featured-titles-container .featured-title-20, .main-wrapper .featured-titles-container .featured-title-21,
+  .main-wrapper .featured-titles-container .featured-title-22, .main-wrapper .featured-titles-container .featured-title-23, .main-wrapper .featured-titles-container .featured-title-24,
+  .main-wrapper .featured-titles-container .featured-title-25, .main-wrapper .featured-titles-container .featured-title-26, .main-wrapper .featured-titles-container .featured-title-27 {
     height: 150px !important;
     width: 155px !important; } }
 
@@ -1476,37 +1556,42 @@ p, h1, h2, h3, h4, h5, h6 {
       .main-wrapper .featured-titles-container .featured-title-row .featured-title-1, .main-wrapper .featured-titles-container .featured-title-row .featured-title-2, .main-wrapper .featured-titles-container .featured-title-row .featured-title-3,
       .main-wrapper .featured-titles-container .featured-title-row .featured-title-4, .main-wrapper .featured-titles-container .featured-title-row .featured-title-5, .main-wrapper .featured-titles-container .featured-title-row .featured-title-6,
       .main-wrapper .featured-titles-container .featured-title-row .featured-title-7, .main-wrapper .featured-titles-container .featured-title-row .featured-title-8, .main-wrapper .featured-titles-container .featured-title-row .featured-title-9,
-      .main-wrapper .featured-titles-container .featured-title-row .featured-title-10 {
+      .main-wrapper .featured-titles-container .featured-title-row .featured-title-10, .main-wrapper .featured-titles-container .featured-title-row .featured-title-11, .main-wrapper .featured-titles-container .featured-title-row .featured-title-12,
+      .main-wrapper .featured-titles-container .featured-title-row .featured-title-13, .main-wrapper .featured-titles-container .featured-title-row .featured-title-14, .main-wrapper .featured-titles-container .featured-title-row .featured-title-15,
+      .main-wrapper .featured-titles-container .featured-title-row .featured-title-16, .main-wrapper .featured-titles-container .featured-title-row .featured-title-17, .main-wrapper .featured-titles-container .featured-title-row .featured-title-18,
+      .main-wrapper .featured-titles-container .featured-title-row .featured-title-19, .main-wrapper .featured-titles-container .featured-title-row .featured-title-20, .main-wrapper .featured-titles-container .featured-title-row .featured-title-21,
+      .main-wrapper .featured-titles-container .featured-title-row .featured-title-22, .main-wrapper .featured-titles-container .featured-title-row .featured-title-23, .main-wrapper .featured-titles-container .featured-title-row .featured-title-24,
+      .main-wrapper .featured-titles-container .featured-title-row .featured-title-25, .main-wrapper .featured-titles-container .featured-title-row .featured-title-26, .main-wrapper .featured-titles-container .featured-title-row .featured-title-27 {
         height: 250px !important;
         width: 250px !important;
         margin-bottom: 30px !important; }
       .main-wrapper .featured-titles-container .featured-title-row .featured-title-11, .main-wrapper .featured-titles-container .featured-title-row .featured-title-12 {
         display: none !important; } }
 
-.main-wrapper .work-with-us-container {
+.main-wrapper .work-with-us-wrapper .work-with-us-container {
   display: flex;
   flex-direction: column; }
-  .main-wrapper .work-with-us-container p {
+  .main-wrapper .work-with-us-wrapper .work-with-us-container p {
     line-height: 25px; }
-  .main-wrapper .work-with-us-container .mail-link {
+  .main-wrapper .work-with-us-wrapper .work-with-us-container .mail-link {
     color: #84DAFE; }
-  .main-wrapper .work-with-us-container a {
+  .main-wrapper .work-with-us-wrapper .work-with-us-container a {
     margin: 0px; }
-  .main-wrapper .work-with-us-container a:visited {
+  .main-wrapper .work-with-us-wrapper .work-with-us-container a:visited {
     text-decoration: none; }
-  .main-wrapper .work-with-us-container .mail-button-container {
+  .main-wrapper .work-with-us-wrapper .work-with-us-container .mail-button-container {
     display: flex;
     align-self: center;
     height: 50px;
     width: 250px; }
-    .main-wrapper .work-with-us-container .mail-button-container a {
+    .main-wrapper .work-with-us-wrapper .work-with-us-container .mail-button-container a {
       text-decoration: none; }
-    .main-wrapper .work-with-us-container .mail-button-container a:visited {
+    .main-wrapper .work-with-us-wrapper .work-with-us-container .mail-button-container a:visited {
       text-decoration: none; }
-    .main-wrapper .work-with-us-container .mail-button-container a:hover {
+    .main-wrapper .work-with-us-wrapper .work-with-us-container .mail-button-container a:hover {
       transform: scale(1.1);
       transition: transform 0.25s ease-in-out; }
-    .main-wrapper .work-with-us-container .mail-button-container .mail-button {
+    .main-wrapper .work-with-us-wrapper .work-with-us-container .mail-button-container .mail-button {
       display: flex;
       justify-content: center;
       align-items: center;
@@ -1521,18 +1606,18 @@ p, h1, h2, h3, h4, h5, h6 {
       padding: 0px; }
 
 @media (max-width: 1000px) {
-  .main-wrapper .work-with-us-container {
+  .main-wrapper .work-with-us-wrapper .work-with-us-container {
     width: auto;
     padding: 0px 15px; } }
 
 @media (max-width: 500px) {
-  .main-wrapper .work-with-us-container .mail-button-container {
+  .main-wrapper .work-with-us-wrapper .work-with-us-container .mail-button-container {
     height: 45px;
     width: 225px; }
-    .main-wrapper .work-with-us-container .mail-button-container .mail-button {
+    .main-wrapper .work-with-us-wrapper .work-with-us-container .mail-button-container .mail-button {
       height: 45px;
       width: 225px; }
-      .main-wrapper .work-with-us-container .mail-button-container .mail-button p {
+      .main-wrapper .work-with-us-wrapper .work-with-us-container .mail-button-container .mail-button p {
         font-size: 16pt;
         letter-spacing: 1px;
         color: white; } }
