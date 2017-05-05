@@ -119,6 +119,16 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/assets\/css\/includes\/our-work.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/css\/includes\/our-work-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/assets\/css\/includes\/our-work.sass": {
 		"aP": 0,
 		"bl": 0,
@@ -127,6 +137,19 @@
 		"ft": 2,
 		"ma": 0,
 		"oA": 0,
+		"oAP": "\/assets\/css\/includes\/our-work.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/includes\/our-work.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
 		"oAP": "\/assets\/css\/includes\/our-work.css",
 		"oF": 0,
 		"oS": 0,
@@ -185,6 +208,16 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/assets\/css\/vendors\/animate-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/assets\/css\/vendors\/jquery.fancybox.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/css\/vendors\/jquery.fancybox-min.css",
 		"oF": 0,
 		"oS": 0
 		},
@@ -287,6 +320,182 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/assets\/images\/featured-games\/10_gladiators_gold\/glad_gold_cover.png": {
+		"ft": 32768,
+		"iS": 88875,
+		"oA": 0,
+		"oAP": "\/assets\/images\/featured-games\/10_gladiators_gold\/glad_gold_cover.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/featured-games\/1_tinseltown\/tinsel_1.jpg": {
+		"ft": 16384,
+		"iS": 191276,
+		"oA": 0,
+		"oAP": "\/assets\/images\/featured-games\/1_tinseltown\/tinsel_1.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/featured-games\/1_tinseltown\/tinsel_cover.png": {
+		"ft": 32768,
+		"iS": 73924,
+		"oA": 0,
+		"oAP": "\/assets\/images\/featured-games\/1_tinseltown\/tinsel_cover.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/featured-games\/2_hanabi_taikai\/hanabi_1.jpg": {
+		"ft": 16384,
+		"iS": 251771,
+		"oA": 0,
+		"oAP": "\/assets\/images\/featured-games\/2_hanabi_taikai\/hanabi_1.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/featured-games\/2_hanabi_taikai\/hanabi_cover.png": {
+		"ft": 32768,
+		"iS": 71054,
+		"oA": 0,
+		"oAP": "\/assets\/images\/featured-games\/2_hanabi_taikai\/hanabi_cover.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/featured-games\/3_pretty_pirates\/pirates_1.jpg": {
+		"ft": 16384,
+		"iS": 224968,
+		"oA": 0,
+		"oAP": "\/assets\/images\/featured-games\/3_pretty_pirates\/pirates_1.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/featured-games\/3_pretty_pirates\/pirates_cover.png": {
+		"ft": 32768,
+		"iS": 75746,
+		"oA": 0,
+		"oAP": "\/assets\/images\/featured-games\/3_pretty_pirates\/pirates_cover.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/featured-games\/4_merlin_wand\/merlin_1.jpg": {
+		"ft": 16384,
+		"iS": 216854,
+		"oA": 0,
+		"oAP": "\/assets\/images\/featured-games\/4_merlin_wand\/merlin_1.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/featured-games\/4_merlin_wand\/merlin_cover.png": {
+		"ft": 32768,
+		"iS": 72084,
+		"oA": 0,
+		"oAP": "\/assets\/images\/featured-games\/4_merlin_wand\/merlin_cover.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/featured-games\/5_journey_olympus\/olympus_1.jpg": {
+		"ft": 16384,
+		"iS": 196021,
+		"oA": 0,
+		"oAP": "\/assets\/images\/featured-games\/5_journey_olympus\/olympus_1.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/featured-games\/5_journey_olympus\/olympus_cover.png": {
+		"ft": 32768,
+		"iS": 85933,
+		"oA": 0,
+		"oAP": "\/assets\/images\/featured-games\/5_journey_olympus\/olympus_cover.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/featured-games\/6_sacred_temple\/sacred_cover.png": {
+		"ft": 32768,
+		"iS": 60480,
+		"oA": 0,
+		"oAP": "\/assets\/images\/featured-games\/6_sacred_temple\/sacred_cover.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/featured-games\/6_sacred_temple\/temple_1.jpg": {
+		"ft": 16384,
+		"iS": 200495,
+		"oA": 0,
+		"oAP": "\/assets\/images\/featured-games\/6_sacred_temple\/temple_1.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/featured-games\/7_heart_egypt\/egypt_1.jpg": {
+		"ft": 16384,
+		"iS": 220871,
+		"oA": 0,
+		"oAP": "\/assets\/images\/featured-games\/7_heart_egypt\/egypt_1.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/featured-games\/7_heart_egypt\/egypt_cover.png": {
+		"ft": 32768,
+		"iS": 76936,
+		"oA": 0,
+		"oAP": "\/assets\/images\/featured-games\/7_heart_egypt\/egypt_cover.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/featured-games\/8_paleo_wilds\/paleo_1.jpg": {
+		"ft": 16384,
+		"iS": 217409,
+		"oA": 0,
+		"oAP": "\/assets\/images\/featured-games\/8_paleo_wilds\/paleo_1.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/featured-games\/8_paleo_wilds\/paleo_cover.png": {
+		"ft": 32768,
+		"iS": 57204,
+		"oA": 0,
+		"oAP": "\/assets\/images\/featured-games\/8_paleo_wilds\/paleo_cover.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/featured-games\/9_sleepy_hollow\/sleepy_1.jpg": {
+		"ft": 16384,
+		"iS": 193917,
+		"oA": 0,
+		"oAP": "\/assets\/images\/featured-games\/9_sleepy_hollow\/sleepy_1.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/featured-games\/9_sleepy_hollow\/sleepy_cover.png": {
+		"ft": 32768,
+		"iS": 76857,
+		"oA": 0,
+		"oAP": "\/assets\/images\/featured-games\/9_sleepy_hollow\/sleepy_cover.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/featured-games\/_matsuri\/matsuri_cover.png": {
+		"ft": 32768,
+		"iS": 73892,
+		"oA": 0,
+		"oAP": "\/assets\/images\/featured-games\/_matsuri\/matsuri_cover.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/featured-games\/_miner_riches\/miner_cover.png": {
+		"ft": 32768,
+		"iS": 66084,
+		"oA": 0,
+		"oAP": "\/assets\/images\/featured-games\/_miner_riches\/miner_cover.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/featured-games\/_miner_riches\/miners_1.jpg": {
+		"ft": 16384,
+		"iS": 215207,
+		"oA": 0,
+		"oAP": "\/assets\/images\/featured-games\/_miner_riches\/miners_1.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/assets\/images\/gemini-logo.jpg": {
 		"ft": 16384,
 		"iS": 39943,
@@ -366,6 +575,15 @@
 		"oA": 0,
 		"oAP": "\/assets\/js\/app-min.js",
 		"oF": 1,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/js\/jquery.fancybox.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/jquery.fancybox-min.js",
+		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
@@ -868,6 +1086,16 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/drawer\/yarn.lock",
 		"oF": 0
+		},
+	"\/bower_components\/fancybox\/jquery.fancybox.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/fancybox\/jquery.fancybox.css",
+		"oF": 0,
+		"oS": 0
 		},
 	"\/bower_components\/iscroll\/.bower.json": {
 		"ft": 524288,

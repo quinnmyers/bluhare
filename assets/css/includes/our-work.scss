@@ -1,0 +1,147 @@
+.main-wrapper {
+  .our-work {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Questrial', sans-serif;
+    padding-left: 5px;
+
+    .featured-titles-container {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 75px;
+
+      .featured-title-row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 25px;
+
+        .featured-title-1, .featured-title-2, .featured-title-3,
+        .featured-title-4, .featured-title-5, .featured-title-6,
+        .featured-title-7, .featured-title-8, .featured-title-9,
+        .featured-title-10, .featured-title-11, .featured-title-12,{
+          display: flex;
+          height: 250px;
+          width: 250px;
+        }
+        .featured-title-1 {
+          background-image:url(../images/featured-games/1_tinseltown/tinsel_cover.png);
+          background-size: cover;
+        }
+        .featured-title-2 {
+          background-image:url(../images/featured-games/2_hanabi_taikai/hanabi_cover.png);
+          background-size: cover;
+        }
+        .featured-title-3 {
+          background-image:url(../images/featured-games/3_pretty_pirates/pirates_cover.png);
+          background-size: cover;
+        }
+        .featured-title-4 {
+          background-image:url(../images/featured-games/4_merlin_wand/merlin_cover.png);
+          background-size: cover;
+        }
+        .featured-title-5 {
+          background-image:url(../images/featured-games/5_journey_olympus/olympus_cover.png);
+          background-size: cover;
+        }
+        .featured-title-6 {
+          background-image:url(../images/featured-games/6_sacred_temple/sacred_cover.png);
+          background-size: cover;
+        }
+        .featured-title-7 {
+          background-image:url(../images/featured-games/7_heart_egypt/egypt_cover.png);
+          background-size: cover;
+        }
+        .featured-title-8 {
+          background-image:url(../images/featured-games/8_paleo_wilds/paleo_cover.png);
+          background-size: cover;
+        }
+        .featured-title-9 {
+          background-image:url(../images/featured-games/9_sleepy_hollow/sleepy_cover.png);
+          background-size: cover;
+        }
+        .featured-title-10 {
+          background-image:url(../images/featured-games/10_gladiators_gold/glad_gold_cover.png);
+          background-size: cover;
+        }
+      }
+    }
+  }
+
+
+  @media (max-width:1000px) {
+    .featured-titles-container {
+      .featured-title-row {
+        margin: 0px 15px;
+      .featured-title-1, .featured-title-2, .featured-title-3,
+      .featured-title-4, .featured-title-5, .featured-title-6,
+      .featured-title-7, .featured-title-8, .featured-title-9,
+      .featured-title-10, .featured-title-11, .featured-title-12,{
+        height: 200px !important;
+        width: 200px !important;
+      }
+    }
+
+    }
+
+  }
+
+  @media (max-width:975px) {
+    .featured-titles-container {
+
+      .featured-title-1, .featured-title-2, .featured-title-3,
+      .featured-title-4, .featured-title-5, .featured-title-6,
+      .featured-title-7, .featured-title-8, .featured-title-9,
+      .featured-title-10, .featured-title-11, .featured-title-12,{
+        height: 175px !important;
+        width: 175px !important;
+      }
+
+    }
+
+  }
+
+  @media (max-width:880px) {
+    .featured-titles-container {
+
+      .featured-title-1, .featured-title-2, .featured-title-3,
+      .featured-title-4, .featured-title-5, .featured-title-6,
+      .featured-title-7, .featured-title-8, .featured-title-9,
+      .featured-title-10, .featured-title-11, .featured-title-12,{
+        height: 150px !important;
+        width: 155px !important;
+      }
+
+    }
+
+  }
+
+  @media (max-width:680px) {
+    .featured-titles-container {
+      justify-content: center !important;
+      align-items: center !important;
+
+      .featured-title-row {
+        flex-direction: column !important;
+        margin-top: 0px !important;
+
+        .featured-title-1, .featured-title-2, .featured-title-3,
+        .featured-title-4, .featured-title-5, .featured-title-6,
+        .featured-title-7, .featured-title-8, .featured-title-9,
+        .featured-title-10, {
+          height: 250px !important;
+          width: 250px !important;
+          margin-bottom: 30px !important;
+        }
+
+        .featured-title-11, .featured-title-12 {
+          display: none !important;
+        }
+
+      }
+
+    }
+
+  }
+
+}
