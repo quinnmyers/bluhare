@@ -9,6 +9,25 @@
 	],
 "creatorBuild": "25479",
 "files": {
+	"\/about-us.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/about-us.html",
+		"oF": 0
+		},
+	"\/assets\/css\/includes\/about-us.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/includes\/about-us.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/assets\/css\/includes\/animations.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -96,6 +115,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/assets\/css\/includes\/navigation.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/includes\/our-work.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/css\/includes\/our-work.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -255,6 +287,30 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/assets\/images\/gemini-logo.jpg": {
+		"ft": 16384,
+		"iS": 39943,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gemini-logo.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/jim-headshot-bw.png": {
+		"ft": 32768,
+		"iS": 98581,
+		"oA": 0,
+		"oAP": "\/assets\/images\/jim-headshot-bw.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/jim_headshot.png": {
+		"ft": 32768,
+		"iS": 172642,
+		"oA": 0,
+		"oAP": "\/assets\/images\/jim_headshot.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/assets\/images\/main-slider\/main-slider-1.jpg": {
 		"ft": 16384,
 		"iS": 310306,
@@ -276,6 +332,22 @@
 		"iS": 600165,
 		"oA": 0,
 		"oAP": "\/assets\/images\/main-slider\/main-slider-3.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/office-image.jpg": {
+		"ft": 16384,
+		"iS": 297271,
+		"oA": 0,
+		"oAP": "\/assets\/images\/office-image.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/wallimg.jpg": {
+		"ft": 16384,
+		"iS": 186239,
+		"oA": 0,
+		"oAP": "\/assets\/images\/wallimg.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -4390,6 +4462,20 @@
 		"oAP": "\/navigation.html",
 		"oF": 0
 		},
+	"\/our-work.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/our-work.html",
+		"oF": 0
+		},
+	"\/pugfiles\/about-us.pug": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/about-us.html",
+		"oF": 2,
+		"oS": 0
+		},
 	"\/pugfiles\/index.pug": {
 		"cOD": 1,
 		"ft": 512,
@@ -4403,6 +4489,14 @@
 		"ft": 512,
 		"oA": 1,
 		"oAP": "\/navigation.html",
+		"oF": 2,
+		"oS": 0
+		},
+	"\/pugfiles\/our-work.pug": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/our-work.html",
 		"oF": 2,
 		"oS": 0
 		}

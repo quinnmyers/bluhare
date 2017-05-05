@@ -226,6 +226,16 @@ p, h1, h2, h3, h4, h5, h6 {
   margin: 0px;
   padding: 0px; }
 
+.page-title {
+  font: "Questrial", sans-serif; }
+
+.page-break {
+  display: flex;
+  width: 100%;
+  height: 2px;
+  background: #84DAFE;
+  margin-bottom: 15px; }
+
 .main-wrapper {
   width: 1000px;
   height: 1000px;
@@ -233,6 +243,10 @@ p, h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 1000px) {
   .main-wrapper {
+    width: 100vw !important; }
+  .page-title {
+    margin-left: 15px !important; }
+  .page-break {
     width: 100vw !important; } }
 
 .main-wrapper .main-carousel-container {
@@ -635,3 +649,126 @@ p, h1, h2, h3, h4, h5, h6 {
         display: flex; }
     .navigation-wrapper .desktop-nav-container .desktop-nav {
       display: none; } }
+
+.about-us-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  background: khaki; }
+  .about-us-wrapper .about-us-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: auto;
+    margin-bottom: 25px;
+    background: pink; }
+    .about-us-wrapper .about-us-container .about-left-container {
+      height: 400px;
+      width: 40%;
+      border-radius: 5px;
+      background-image: url("/assets/images/wallimg.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .about-us-wrapper .about-us-container .about-right-container {
+      border-radius: 5px;
+      height: 400px;
+      width: 55%;
+      background: #F1F1F1; }
+      .about-us-wrapper .about-us-container .about-right-container .right-container-text {
+        padding: 25px;
+        line-height: 25px; }
+  .about-us-wrapper .meet-ceo-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto; }
+    .about-us-wrapper .meet-ceo-container .jim-picture-container {
+      display: flex;
+      justify-content: center;
+      width: 40%; }
+      .about-us-wrapper .meet-ceo-container .jim-picture-container .jim-picture {
+        align-self: center;
+        background-image: url("/assets/images/jim-headshot-bw.png");
+        background-position: center;
+        background-size: contain;
+        height: 150px;
+        width: 150px;
+        border-radius: 100%;
+        margin-bottom: 20px; }
+    .about-us-wrapper .meet-ceo-container .ceo-bio-container {
+      border-radius: 5px;
+      width: 100%;
+      background: #F1F1F1;
+      margin-bottom: 25px; }
+      .about-us-wrapper .meet-ceo-container .ceo-bio-container .ceo-bio-text {
+        padding: 25px;
+        line-height: 25px; }
+        .about-us-wrapper .meet-ceo-container .ceo-bio-container .ceo-bio-text .strong {
+          text-decoration: underline; }
+  .about-us-wrapper .gemini-digital-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10px; }
+    .about-us-wrapper .gemini-digital-container .gemini-logo {
+      display: flex;
+      height: 0;
+      padding-top: 6%;
+      margin-bottom: 15px;
+      width: 500px;
+      background-color: red;
+      background-image: url("/assets/images/gemini-logo.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain; }
+    .about-us-wrapper .gemini-digital-container .office-image {
+      display: flex;
+      align-self: center;
+      width: 100%;
+      height: 300px;
+      margin-bottom: 15px;
+      background-image: url("/assets/images/office-image.jpg");
+      background-size: cover;
+      background-position: top; }
+    .about-us-wrapper .gemini-digital-container .gemini-text-container {
+      width: 100%;
+      height: auto;
+      background: #F1F1F1;
+      border-radius: 5px; }
+      .about-us-wrapper .gemini-digital-container .gemini-text-container .gemini-text {
+        padding: 25px;
+        line-height: 25px; }
+  .about-us-wrapper .spacer {
+    height: 1000px; }
+
+@media (max-width: 1000px) {
+  .main-wrapper .about-us-wrapper {
+    width: 100vw; }
+    .main-wrapper .about-us-wrapper .about-us-container, .main-wrapper .about-us-wrapper .meet-ceo-container, .main-wrapper .about-us-wrapper .gemini-digital-container {
+      width: 100vw; }
+      .main-wrapper .about-us-wrapper .about-us-container .about-left-container, .main-wrapper .about-us-wrapper .meet-ceo-container .about-left-container, .main-wrapper .about-us-wrapper .gemini-digital-container .about-left-container {
+        align-self: center;
+        margin-left: 15px;
+        height: 0px;
+        padding-top: 40%; }
+      .main-wrapper .about-us-wrapper .about-us-container .about-right-container, .main-wrapper .about-us-wrapper .meet-ceo-container .about-right-container, .main-wrapper .about-us-wrapper .gemini-digital-container .about-right-container {
+        margin-right: 15px;
+        height: auto;
+        border-radius: 5px; }
+    .main-wrapper .about-us-wrapper .meet-ceo-container .ceo-bio-container {
+      margin-left: 15px;
+      width: auto;
+      margin-right: 15px; }
+    .main-wrapper .about-us-wrapper .gemini-digital-container .gemini-logo {
+      align-self: center;
+      padding-top: 10%; }
+    .main-wrapper .about-us-wrapper .gemini-digital-container .office-image {
+      height: 0px;
+      padding-top: 30%; }
+    .main-wrapper .about-us-wrapper .gemini-digital-container .gemini-text-container {
+      margin-left: 15px;
+      margin-right: 15px !important;
+      width: auto; } }

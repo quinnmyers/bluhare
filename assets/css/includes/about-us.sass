@@ -1,0 +1,132 @@
+.about-us-wrapper
+  display: flex
+  flex-direction: column
+  height: auto
+  background: khaki
+  .about-us-container
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    height: auto
+    margin-bottom: 25px
+    background: pink
+    .about-left-container
+      height: 400px
+      width: 40%
+      border-radius: 5px
+      background:
+        image: url('/assets/images/wallimg.jpg')
+        position: center
+        repeat: no-repeat
+        size: cover
+    .about-right-container
+      border-radius: 5px
+      height: 400px
+      width: 55%
+      background: $lightgrey
+      .right-container-text
+        padding: 25px
+        line-height: 25px
+
+
+  .meet-ceo-container
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    width: 100%
+    height: auto
+    .jim-picture-container
+      display: flex
+      justify-content: center
+      width: 40%
+      .jim-picture
+        align-self: center
+        background:
+          image: url('/assets/images/jim-headshot-bw.png')
+          position: center
+          size: contain
+        height: 150px
+        width: 150px
+        border-radius: 100%
+        margin-bottom: 20px
+    .ceo-bio-container
+      border-radius: 5px
+      width: 100%
+      background: $lightgrey
+      margin-bottom: 25px
+      .ceo-bio-text
+        padding: 25px
+        line-height: 25px
+        .strong
+          text-decoration: underline
+  .gemini-digital-container
+    display: flex
+    flex-direction: column
+    width: 100%
+    margin-top: 10px
+    .gemini-logo
+      display: flex
+      height: 0
+      padding-top: 6%
+      margin-bottom: 15px
+      width: 500px
+      background:
+        color: red
+        image: url('/assets/images/gemini-logo.jpg')
+        position: center
+        repeat: no-repeat
+        size: contain
+    .office-image
+      display: flex
+      align-self: center
+      width: 100%
+      height: 300px
+      margin-bottom: 15px
+      background:
+        image: url('/assets/images/office-image.jpg')
+        size: cover
+        position: top
+    .gemini-text-container
+      width: 100%
+      height: auto
+      background: $lightgrey
+      border-radius: 5px
+      .gemini-text
+        padding: 25px
+        line-height: 25px
+  .spacer
+    height: 1000px
+
+@media(max-width: 1000px)
+  .main-wrapper
+    .about-us-wrapper
+      width: 100vw
+      .about-us-container, .meet-ceo-container, .gemini-digital-container
+        width: 100vw
+        .about-left-container
+          align-self: center
+          margin-left: 15px
+          height: 0px
+          padding-top: 40%
+        .about-right-container
+          margin-right: 15px
+          height: auto
+          //padding-top: 40%
+          border-radius: 5px
+      .meet-ceo-container
+        .ceo-bio-container
+          margin-left: 15px
+          width: auto
+          margin-right: 15px
+      .gemini-digital-container
+        .gemini-logo
+          align-self: center
+          padding-top: 10%
+        .office-image
+          height: 0px
+          padding-top: 30%
+        .gemini-text-container
+          margin-left: 15px
+          margin-right: 15px !important
+          width: auto
