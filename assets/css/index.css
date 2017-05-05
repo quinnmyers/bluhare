@@ -888,17 +888,17 @@ p, h1, h2, h3, h4, h5, h6 {
         background-position: bottom;
         background-size: cover; }
       .main-wrapper .main-carousel-container .owl-carousel.owl-theme .slide1 {
-        background-image: url(/assets/images/main-slider/main-slider-1.jpg); }
+        background-image: url(../images/main-slider/main-slider-1.jpg); }
         .main-wrapper .main-carousel-container .owl-carousel.owl-theme .slide1 .main-slide-title {
           color: #0382DA; }
       .main-wrapper .main-carousel-container .owl-carousel.owl-theme .slide2 {
-        background-image: url(/assets/images/main-slider/main-slider-2.jpg); }
+        background-image: url(../images/main-slider/main-slider-2.jpg); }
       .main-wrapper .main-carousel-container .owl-carousel.owl-theme .slide3 {
-        background-image: url(/assets/images/main-slider/main-slider-3.jpg); }
+        background-image: url(../images/main-slider/main-slider-3.jpg); }
       .main-wrapper .main-carousel-container .owl-carousel.owl-theme .slide4 {
-        background-image: url(/assets/images/main-slider/main-slider-4.jpg); }
+        background-image: url(../images/main-slider/main-slider-4.jpg); }
       .main-wrapper .main-carousel-container .owl-carousel.owl-theme .slide5 {
-        background-image: url(/assets/images/main-slider/main-slider-5.jpg); }
+        background-image: url(../images/main-slider/main-slider-5.jpg); }
       .main-wrapper .main-carousel-container .owl-carousel.owl-theme .main-slide-title {
         color: white;
         font-family: "Questrial", sans-serif;
@@ -1034,17 +1034,17 @@ p, h1, h2, h3, h4, h5, h6 {
         background-position: center;
         background-size: contain; }
       .main-wrapper .bottom-carousel-container .owl-carousel.owl-theme .slide1 {
-        background-image: url(/assets/images/bot-slide/bot-slide-1.png); }
+        background-image: url(../images/bot-slide/bot-slide-1.png); }
       .main-wrapper .bottom-carousel-container .owl-carousel.owl-theme .slide2 {
-        background-image: url(/assets/images/bot-slide/bot-slide-2.png); }
+        background-image: url(../images/bot-slide/bot-slide-2.png); }
       .main-wrapper .bottom-carousel-container .owl-carousel.owl-theme .slide3 {
-        background-image: url(/assets/images/bot-slide/bot-slide-3.png); }
+        background-image: url(../images/bot-slide/bot-slide-3.png); }
       .main-wrapper .bottom-carousel-container .owl-carousel.owl-theme .slide4 {
-        background-image: url(/assets/images/bot-slide/bot-slide-4.png); }
+        background-image: url(../images/bot-slide/bot-slide-4.png); }
       .main-wrapper .bottom-carousel-container .owl-carousel.owl-theme .slide5 {
-        background-image: url(/assets/images/bot-slide/bot-slide-5.png); }
+        background-image: url(../images/bot-slide/bot-slide-5.png); }
       .main-wrapper .bottom-carousel-container .owl-carousel.owl-theme .slide6 {
-        background-image: url(/assets/images/bot-slide/bot-slide-6.png); }
+        background-image: url(../images/bot-slide/bot-slide-6.png); }
         .main-wrapper .bottom-carousel-container .owl-carousel.owl-theme .slide6 .main-slide-title {
           color: #0382DA; }
 
@@ -1064,13 +1064,13 @@ p, h1, h2, h3, h4, h5, h6 {
     background-position: top;
     background-size: contain; }
   .main-wrapper .owl-carousel.owl-theme .slide1 {
-    background-image: url(/assets/images/main-slider/main-slider-1.jpg); }
+    background-image: url(../images/main-slider/main-slider-1.jpg); }
     .main-wrapper .owl-carousel.owl-theme .slide1 .main-slide-title {
       color: #0382DA; }
   .main-wrapper .owl-carousel.owl-theme .slide2 {
-    background-image: url(/assets/images/main-slider/main-slider-2.jpg); }
+    background-image: url(../images/main-slider/main-slider-2.jpg); }
   .main-wrapper .owl-carousel.owl-theme .slide3 {
-    background-image: url(/assets/images/main-slider/main-slider-3.jpg); }
+    background-image: url(../images/main-slider/main-slider-3.jpg); }
   .main-wrapper .owl-carousel.owl-theme .main-slide-title {
     color: white;
     font-family: "Questrial", sans-serif;
@@ -1209,7 +1209,7 @@ p, h1, h2, h3, h4, h5, h6 {
     align-items: center;
     width: 300px;
     margin-left: 10px;
-    background-image: url("/assets/images/bluhare-logo.png");
+    background-image: url("../images/bluhare-logo.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: bottom; }
@@ -1303,7 +1303,7 @@ p, h1, h2, h3, h4, h5, h6 {
     align-self: center;
     height: 100px;
     width: 200px;
-    background-image: url(/assets/images/bluhare-logo.png);
+    background-image: url(../images/bluhare-logo.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; }
@@ -1385,7 +1385,7 @@ p, h1, h2, h3, h4, h5, h6 {
       height: 400px;
       width: 40%;
       border-radius: 5px;
-      background-image: url("/assets/images/wallimg.jpg");
+      background-image: url("../images/wallimg.jpg");
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover; }
@@ -1410,7 +1410,7 @@ p, h1, h2, h3, h4, h5, h6 {
       width: 80%; }
       .about-us-wrapper .meet-ceo-container .jim-picture-container .jim-picture {
         align-self: center;
-        background-image: url("/assets/images/jim-headshot-bw.png");
+        background-image: url("../images/jim-headshot-bw.png");
         background-position: center;
         background-size: contain;
         height: 150px;
@@ -1439,7 +1439,7 @@ p, h1, h2, h3, h4, h5, h6 {
       padding-top: 6%;
       margin-bottom: 15px;
       width: 500px;
-      background-image: url("/assets/images/gemini-logo.jpg");
+      background-image: url("../images/gemini-logo.jpg");
       background-position: center;
       background-repeat: no-repeat;
       background-size: contain; }
@@ -1449,7 +1449,7 @@ p, h1, h2, h3, h4, h5, h6 {
       width: 100%;
       height: 300px;
       margin-bottom: 15px;
-      background-image: url("/assets/images/office-image.jpg");
+      background-image: url("../images/office-image.jpg");
       background-size: cover;
       background-position: top; }
     .about-us-wrapper .gemini-digital-container .gemini-text-container {
@@ -1466,7 +1466,7 @@ p, h1, h2, h3, h4, h5, h6 {
       margin-top: 25px;
       height: 120px;
       width: 400px;
-      background-image: url(/assets/images/wildhare-logo.png);
+      background-image: url(../images/wildhare-logo.png);
       background-size: contain;
       background-position: center;
       background-repeat: no-repeat; }
