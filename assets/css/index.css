@@ -861,8 +861,6 @@ p, h1, h2, h3, h4, h5, h6 {
 @media (max-width: 1000px) {
   .main-wrapper {
     width: 100vw !important; }
-  .page-title {
-    margin-left: 15px !important; }
   .page-break {
     width: 100vw !important; } }
 
@@ -1484,3 +1482,70 @@ p, h1, h2, h3, h4, h5, h6 {
         margin-bottom: 30px !important; }
       .main-wrapper .featured-titles-container .featured-title-row .featured-title-11, .main-wrapper .featured-titles-container .featured-title-row .featured-title-12 {
         display: none !important; } }
+
+.main-wrapper .work-with-us-container {
+  display: flex;
+  flex-direction: column; }
+  .main-wrapper .work-with-us-container p {
+    line-height: 25px; }
+  .main-wrapper .work-with-us-container .mail-link {
+    color: #84DAFE; }
+  .main-wrapper .work-with-us-container a {
+    margin: 0px; }
+  .main-wrapper .work-with-us-container a:visited {
+    text-decoration: none; }
+  .main-wrapper .work-with-us-container .mail-button-container {
+    display: flex;
+    align-self: center;
+    height: 50px;
+    width: 250px; }
+    .main-wrapper .work-with-us-container .mail-button-container a {
+      text-decoration: none; }
+    .main-wrapper .work-with-us-container .mail-button-container a:visited {
+      text-decoration: none; }
+    .main-wrapper .work-with-us-container .mail-button-container a:hover {
+      transform: scale(1.1);
+      transition: transform 0.25s ease-in-out; }
+    .main-wrapper .work-with-us-container .mail-button-container .mail-button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 50px;
+      width: 250px;
+      background: #84DAFE;
+      color: white;
+      font-size: 16pt;
+      text-align: center;
+      letter-spacing: 1px;
+      margin-top: 25px;
+      padding: 0px; }
+
+@media (max-width: 1000px) {
+  .main-wrapper .work-with-us-container {
+    width: auto;
+    padding: 0px 15px; } }
+
+@media (max-width: 500px) {
+  .main-wrapper .work-with-us-container .mail-button-container {
+    height: 45px;
+    width: 225px; }
+    .main-wrapper .work-with-us-container .mail-button-container .mail-button {
+      height: 45px;
+      width: 225px; }
+      .main-wrapper .work-with-us-container .mail-button-container .mail-button p {
+        font-size: 16pt;
+        letter-spacing: 1px;
+        color: white; } }
+
+@media (max-width: 340px) {
+  .main-wrapper .work-with-us-container .mail-button-container {
+    height: 40px;
+    width: 200px; }
+    .main-wrapper .work-with-us-container .mail-button-container .mail-button {
+      height: 40px;
+      width: 200px; }
+      .main-wrapper .work-with-us-container .mail-button-container .mail-button p {
+        font-size: 14pt;
+        margin-top: -1px;
+        letter-spacing: 1px;
+        color: white; } }
