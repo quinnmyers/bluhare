@@ -26,8 +26,10 @@ html
           .item.slide3
           .item.slide4
           .item.slide5   
-      .who-are-we-button
-        p who are we?
+      .who-are-we-button-container
+        a(href='about-us.html')
+          .who-are-we-button
+            p who are we?
       .home-cta
         h2.first We Know Slots!
         h2 social/mobile/web/casino
@@ -39,8 +41,10 @@ html
           p.first Finding yourself short on games or time? 
           p Need fresh ideas?
           p Looking for that "Vegas" feel?
-        .hire-us-button
-          p Hire US!
+        .hire-us-button-container
+          a(href='contact.html')
+            .hire-us-button
+              p Hire US!
           
       .play-our-games-panel
         .play-our-games-top-text
@@ -61,8 +65,7 @@ html
               h3 6
         .play-our-games-bottom-text
           p ... and on casino floors!
-    
-    .spacer      
+        
   
     
     script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js")
@@ -75,18 +78,7 @@ html
 
 
     
-  footer.footer-section
-    ul.footer-nav-list
-      li.footer-nav-item home
-      li |
-      li.footer-nav-item about us
-      li |
-      li.footer-nav-item our work
-      li |
-      li.footer-nav-item work with us
-      li |
-      li.footer-nav-item contact
-      li |
+  include footer.pug
     
 //https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
     

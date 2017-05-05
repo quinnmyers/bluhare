@@ -1,4 +1,5 @@
 .main-wrapper
+  overflow-x: hidden
   .main-carousel-container
     display: flex
     height: auto
@@ -45,20 +46,29 @@
       h2
         padding-top: 50px
 
-
-  .who-are-we-button
+  .who-are-we-button-container
     display: flex
-    justify-content: center
-    align-items: center
-    margin: auto
-    margin-top: 30px
-    height: 50px
     width: 250px
-    color: white
-    letter-spacing: 1px
-    font-size: 16pt
-    background: $bhblue
-    font-family: $mainfont
+    align-self: center
+    margin: auto
+    a
+      text-decoration: none
+    a:hover
+      transform: scale(1.1)
+      transition: transform 0.25s ease-in-out
+    .who-are-we-button
+      display: flex
+      justify-content: center
+      align-items: center
+      margin: auto
+      margin-top: 30px
+      height: 50px
+      width: 250px
+      color: white
+      letter-spacing: 1px
+      font-size: 16pt
+      background: $bhblue
+      font-family: $mainfont
   .home-cta
     display: flex
     flex-direction: column
@@ -97,13 +107,20 @@
         font-size: 15pt
         color: white
         letter-spacing: 1px
-    .hire-us-button
-      display: flex
-      justify-content: center
-      align-items: center
-      height: 60px
-      width: 275px
-      background: $orange
+    .hire-us-button-container
+      width: 250px
+      a
+        text-decoration: none
+      .hire-us-button
+        display: flex
+        justify-content: center
+        align-items: center
+        height: 50px
+        width: 250px
+        background: $orange
+        &:hover
+          transform: scale(1.1)
+          transition: transform 0.25s ease-in-out
       p
         font-size: 20pt
         margin-top: -1px
@@ -117,6 +134,7 @@
       align-items: center
       align-items: center
       margin-top: 30px
+      margin-bottom: 25px
       height: 270px
       width: 100%
       background: $pink
@@ -142,6 +160,7 @@
     .owl-carousel.owl-theme
       display: flex
       flex-direction: column
+      margin: auto
       .owl-dots
         display: none
         align-self: center
@@ -150,7 +169,7 @@
       .item
         width: 100px
         height: 0
-        padding-top: 60%
+        padding-top: 50%
         flex-grow: yes
       .slide1, .slide2, .slide3, .slide4, .slide5, .slide6
         background:
@@ -194,7 +213,7 @@
         height: 0
         padding-top: 41.6%
         flex-grow: yes
-      .slide1, .slide2, .slide3
+      .slide1, .slide2, .slide3, .slide4, .slide5
         background:
           repeat: no-repeat
           position: top
@@ -221,12 +240,14 @@
 
 @media (max-width: 500px)
   .main-wrapper
-    .who-are-we-button
-      margin-top: 30px
-      height: 45px
+    .who-are-we-button-container
       width: 200px
-      letter-spacing: 1px
-      font-size: 16pt
+      .who-are-we-button
+        margin-top: 30px
+        height: 45px
+        width: 200px
+        letter-spacing: 1px
+        font-size: 16pt
     .home-cta
       margin-top: 20px
       h2
@@ -252,7 +273,7 @@
           letter-spacing: 1px
       .hire-us-button
         height: 45px
-        width: 225px
+        width: 200px
         p
           font-size: 16pt
           margin-top: -1px
@@ -275,14 +296,21 @@
           letter-spacing: 0.25px
           margin-bottom: 15px
 
+    .bottom-carousel-container
+      overflow: hidden
+      .owl-carousel.owl-theme
+        width: 300px
+        overflow: hidden
 @media (max-width: 340px)
   .main-wrapper
-    .who-are-we-button
-      margin-top: 30px
-      height: 40px
+    .who-are-we-button-container
       width: 200px
-      letter-spacing: 1px
-      font-size: 14pt
+      .who-are-we-button
+        margin-top: 30px
+        height: 40px
+        width: 200px
+        letter-spacing: 1px
+        font-size: 14pt
     .home-cta
       margin-top: 20px
       h2

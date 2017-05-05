@@ -28,7 +28,6 @@ $(document).ready(function () {
     smartSpeed: 400,
     autoplayTimeout: 1000,
     autoplaySpeed: 300,
-    center: true
   });
 });
 // normal toggle for mobile nav

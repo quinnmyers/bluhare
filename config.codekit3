@@ -54,6 +54,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/assets\/css\/includes\/contact.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/includes\/contact.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/assets\/css\/includes\/footer.sass": {
 		"aP": 0,
 		"bl": 0,
@@ -4838,6 +4851,18 @@
 		"oAP": "\/bower_components\/progressbar.js\/tools\/test.sh",
 		"oF": 0
 		},
+	"\/contact.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/contact.html",
+		"oF": 0
+		},
+	"\/footer.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/footer.html",
+		"oF": 0
+		},
 	"\/index.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -4861,6 +4886,22 @@
 		"ft": 512,
 		"oA": 0,
 		"oAP": "\/about-us.html",
+		"oF": 2,
+		"oS": 0
+		},
+	"\/pugfiles\/contact.pug": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/contact.html",
+		"oF": 2,
+		"oS": 0
+		},
+	"\/pugfiles\/footer.pug": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/footer.html",
 		"oF": 2,
 		"oS": 0
 		},

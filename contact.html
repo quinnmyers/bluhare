@@ -41,20 +41,36 @@
   </div>
   <body>
     <div class="main-wrapper">
-      <div class="work-with-us-wrapper">
-        <h2 class="page-title">Current Openings</h2>
-        <div class="page-break"></div>
-        <div class="work-with-us-container">
-          <p>We are always looking for talented individuals to join our team. If you think you have what it takes, please send us an <a class="mail-link" href="mailto:info@bluhare.com?Subject=Job Application" target="_top">email</a> with a resume and portfolio. If you have any questions unrelated to careers or contract positions, please send them to us using the form in the <a href="contact.html"></a> section. We look forward to hearing from you!</p>
-          <div class="mail-button-container"><a href="mailto:info@bluhare.com?Subject=Job Application" target="_top">
-              <div class="mail-button">
-                <p>email us!</p>
-              </div></a></div>
+      <h2 class="page-title">Contact Us</h2>
+      <div class="page-break"></div>
+      <div class="contact-wrapper">
+        <div class="contact-left-info">
+          <p class="contact-info">Bluhare Studios</p><br>
+          <p>3227 E. Warm Springs Ave. Suite 200</p><br>
+          <p>Las Vegas, NV 89120</p>
+        </div>
+        <div class="contact-form-container">
+          <form action="https://formspree.io/your@email.com" method="POST">
+            <label class="formlabel" for="your-name">Your Name</label>
+            <div class="name">
+              <input type="text" name="name">
+            </div>
+            <label class="formlabel" for="your-email">Your Email </label>
+            <div class="email">
+              <input type="email" name="_replyto">
+            </div>
+            <label class="formlabel" for="message">Message</label>
+            <div class="message"> 
+              <textarea type="textarea" name="message"></textarea>
+            </div>
+            <div class="send-button">
+              <input type="submit" value="send">
+            </div>
+          </form>
         </div>
       </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="assets/js/app.js"></script>
-    <script src="assets/js/owl.carousel.js"> </script>
+    <script src="assets/js/app.js"> </script>
   </body>
 </html>

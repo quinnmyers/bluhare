@@ -1,0 +1,73 @@
+.footer-container
+  display: flex
+  justify-content: space-between
+  height: 120px
+  .footer-logo
+    align-self: center
+    height: 100px
+    width: 200px
+    background:
+      image: url(/assets/images/bluhare-logo.png)
+      position: center
+      repeat: no-repeat
+      size: contain
+  .copyright-info
+    align-self: flex-end
+  .footer-nav
+    float: right
+    list-style: none
+    align-self: center
+    a
+      text-decoration: none
+      color: $bhblue
+    .footer-nav-item
+      padding: 2px 0px
+
+@media (max-width: 1000px)
+  .footer-container
+    width: 100%
+    .footer-logo
+      margin-left: 5px
+    .footer-nav
+      margin-right: 10px
+
+@media (max-width: 830px)
+  .footer-container
+    width: 100%
+    .copyright-info
+      font-size: 12pt
+
+@media (max-width: 620px)
+  .footer-container
+    width: 100%
+    .footer-logo
+      margin-left: 5px
+      width: 150px
+    .copyright-info
+      font-size: 8pt
+    .footer-nav
+      margin-right: 10px
+      font-size: 10pt
+
+@media (max-width: 550px)
+  .footer-container
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    width: 100%
+    height: auto
+    .footer-logo
+      margin-left: 5px
+      width: 150px
+      order: 1
+    .copyright-info
+      font-size: 7pt
+      align-self: center
+      order: 3
+    .footer-nav
+      margin-right: 10px
+      font-size: 9pt
+      float: none
+      text-align: center
+      order: 2
+      margin-left: -10px
