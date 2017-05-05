@@ -1786,6 +1786,10 @@ p, h1, h2, h3, h4, h5, h6 {
           margin-bottom: -30px;
           font-size: 12pt;
           text-decoration: underline; }
+        .main-wrapper .contact-wrapper .contact-form-container form input {
+          border: 1px solid black; }
+        .main-wrapper .contact-wrapper .contact-form-container form textarea {
+          border: 1px solid black; }
       .main-wrapper .contact-wrapper .contact-form-container .name input {
         width: 30%;
         height: 20px; }
