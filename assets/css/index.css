@@ -1256,9 +1256,10 @@ p, h1, h2, h3, h4, h5, h6 {
     justify-content: space-between;
     position: absolute;
     right: 0;
+    top: 0;
     height: 17px;
     width: 30px;
-    margin-top: 5px;
+    margin-top: 15px;
     margin-right: 15px; }
     .navigation-wrapper .hamburger .line1, .navigation-wrapper .hamburger .line2, .navigation-wrapper .hamburger .line3 {
       height: 1px;
@@ -1290,8 +1291,9 @@ p, h1, h2, h3, h4, h5, h6 {
     .navigation-wrapper .logo {
       height: 60px;
       width: 200px; }
-      .navigation-wrapper .logo .hamburger {
-        display: flex; }
+    .navigation-wrapper .hamburger {
+      display: flex;
+      align-self: center; }
     .navigation-wrapper .desktop-nav-container .desktop-nav {
       display: none; } }
 
