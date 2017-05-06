@@ -15,6 +15,19 @@
 		"oAP": "\/about-us.html",
 		"oF": 0
 		},
+	"\/assets\/css\/includes\/_animate.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/includes\/_animate.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/assets\/css\/includes\/about-us.sass": {
 		"aP": 0,
 		"bl": 0,
@@ -155,16 +168,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/css\/includes\/vars.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/css\/includes\/vars-min.css",
-		"oF": 0,
-		"oS": 0
-		},
 	"\/assets\/css\/includes\/vars.sass": {
 		"aP": 0,
 		"bl": 0,
@@ -202,7 +205,7 @@
 		"oS": 0
 		},
 	"\/assets\/css\/index.sass": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -277,6 +280,14 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/assets\/images\/bh-favicon.png": {
+		"ft": 32768,
+		"iS": 15672,
+		"oA": 0,
+		"oAP": "\/assets\/images\/bh-favicon.png",
+		"oF": 0,
+		"opt": 1
+		},
 	"\/assets\/images\/bluhare-logo.png": {
 		"ft": 32768,
 		"iS": 40000,
@@ -333,69 +344,87 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/assets\/images\/Click-Icon.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/images\/Click-Icon.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/assets\/images\/featured-games\/10_gladiators_gold\/glad_gold_cover.png": {
 		"ft": 32768,
-		"iS": 88875,
+		"iS": 343498,
 		"oA": 0,
 		"oAP": "\/assets\/images\/featured-games\/10_gladiators_gold\/glad_gold_cover.png",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/assets\/images\/featured-games\/11_88_delights.png": {
-		"ft": 32768,
-		"iS": 372108,
+	"\/assets\/images\/featured-games\/11_paleo_wilds\/paleo_1.jpg": {
+		"ft": 16384,
+		"iS": 217409,
 		"oA": 0,
-		"oAP": "\/assets\/images\/featured-games\/11_88_delights.png",
+		"oAP": "\/assets\/images\/featured-games\/11_paleo_wilds\/paleo_1.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
-	"\/assets\/images\/featured-games\/12_88_delights_dlx.png": {
+	"\/assets\/images\/featured-games\/11_paleo_wilds\/paleo_cover.png": {
 		"ft": 32768,
-		"iS": 419329,
+		"iS": 243133,
 		"oA": 0,
-		"oAP": "\/assets\/images\/featured-games\/12_88_delights_dlx.png",
+		"oAP": "\/assets\/images\/featured-games\/11_paleo_wilds\/paleo_cover.png",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
+		},
+	"\/assets\/images\/featured-games\/12_bear.png": {
+		"ft": 32768,
+		"iS": 311800,
+		"oA": 0,
+		"oAP": "\/assets\/images\/featured-games\/12_bear.png",
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/images\/featured-games\/13_first_emperor.png": {
 		"ft": 32768,
-		"iS": 7684650,
+		"iS": 288434,
 		"oA": 0,
 		"oAP": "\/assets\/images\/featured-games\/13_first_emperor.png",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/assets\/images\/featured-games\/14_baker_st.png": {
 		"ft": 32768,
-		"iS": 7692543,
+		"iS": 266847,
 		"oA": 0,
 		"oAP": "\/assets\/images\/featured-games\/14_baker_st.png",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/assets\/images\/featured-games\/15_cinderella.png": {
 		"ft": 32768,
-		"iS": 7730146,
+		"iS": 334994,
 		"oA": 0,
 		"oAP": "\/assets\/images\/featured-games\/15_cinderella.png",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/assets\/images\/featured-games\/16_carnevale.png": {
 		"ft": 32768,
-		"iS": 7727980,
+		"iS": 332726,
 		"oA": 0,
 		"oAP": "\/assets\/images\/featured-games\/16_carnevale.png",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/assets\/images\/featured-games\/17_lotus_fortune.png": {
 		"ft": 32768,
-		"iS": 375072,
+		"iS": 284916,
 		"oA": 0,
 		"oAP": "\/assets\/images\/featured-games\/17_lotus_fortune.png",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/assets\/images\/featured-games\/18_majestic_fortune.png": {
 		"ft": 32768,
@@ -405,13 +434,21 @@
 		"oF": 0,
 		"opt": 1
 		},
+	"\/assets\/images\/featured-games\/18_snow.png": {
+		"ft": 32768,
+		"iS": 291510,
+		"oA": 0,
+		"oAP": "\/assets\/images\/featured-games\/18_snow.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/assets\/images\/featured-games\/19_noble_musketeers.png": {
 		"ft": 32768,
-		"iS": 7733016,
+		"iS": 336904,
 		"oA": 0,
 		"oAP": "\/assets\/images\/featured-games\/19_noble_musketeers.png",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/assets\/images\/featured-games\/1_tinseltown\/tinsel_1.jpg": {
 		"ft": 16384,
@@ -423,7 +460,7 @@
 		},
 	"\/assets\/images\/featured-games\/1_tinseltown\/tinsel_cover.png": {
 		"ft": 32768,
-		"iS": 73924,
+		"iS": 303498,
 		"oA": 0,
 		"oAP": "\/assets\/images\/featured-games\/1_tinseltown\/tinsel_cover.png",
 		"oF": 0,
@@ -431,67 +468,83 @@
 		},
 	"\/assets\/images\/featured-games\/20_poseidon.png": {
 		"ft": 32768,
-		"iS": 7708588,
+		"iS": 311661,
 		"oA": 0,
 		"oAP": "\/assets\/images\/featured-games\/20_poseidon.png",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/assets\/images\/featured-games\/21_casanova.png": {
 		"ft": 32768,
-		"iS": 7718324,
+		"iS": 314035,
 		"oA": 0,
 		"oAP": "\/assets\/images\/featured-games\/21_casanova.png",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/assets\/images\/featured-games\/22_eureka.png": {
 		"ft": 32768,
-		"iS": 7751365,
+		"iS": 306951,
 		"oA": 0,
 		"oAP": "\/assets\/images\/featured-games\/22_eureka.png",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/assets\/images\/featured-games\/23_fancy.png": {
 		"ft": 32768,
-		"iS": 7680132,
+		"iS": 288480,
 		"oA": 0,
 		"oAP": "\/assets\/images\/featured-games\/23_fancy.png",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/assets\/images\/featured-games\/24_giza.png": {
 		"ft": 32768,
-		"iS": 7645644,
+		"iS": 238061,
 		"oA": 0,
 		"oAP": "\/assets\/images\/featured-games\/24_giza.png",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/assets\/images\/featured-games\/25_hades.png": {
 		"ft": 32768,
-		"iS": 7707714,
+		"iS": 311846,
 		"oA": 0,
 		"oAP": "\/assets\/images\/featured-games\/25_hades.png",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/assets\/images\/featured-games\/26_ridotto.png": {
 		"ft": 32768,
-		"iS": 7699034,
+		"iS": 302578,
 		"oA": 0,
 		"oAP": "\/assets\/images\/featured-games\/26_ridotto.png",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/assets\/images\/featured-games\/27_zeus.png": {
 		"ft": 32768,
-		"iS": 7691974,
+		"iS": 287177,
 		"oA": 0,
 		"oAP": "\/assets\/images\/featured-games\/27_zeus.png",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
+		},
+	"\/assets\/images\/featured-games\/28_rock.png": {
+		"ft": 32768,
+		"iS": 350484,
+		"oA": 0,
+		"oAP": "\/assets\/images\/featured-games\/28_rock.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/featured-games\/29_gold_spike.png": {
+		"ft": 32768,
+		"iS": 254093,
+		"oA": 0,
+		"oAP": "\/assets\/images\/featured-games\/29_gold_spike.png",
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/images\/featured-games\/2_hanabi_taikai\/hanabi_1.jpg": {
 		"ft": 16384,
@@ -503,9 +556,17 @@
 		},
 	"\/assets\/images\/featured-games\/2_hanabi_taikai\/hanabi_cover.png": {
 		"ft": 32768,
-		"iS": 71054,
+		"iS": 297461,
 		"oA": 0,
 		"oAP": "\/assets\/images\/featured-games\/2_hanabi_taikai\/hanabi_cover.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/featured-games\/30_west.png": {
+		"ft": 32768,
+		"iS": 258703,
+		"oA": 0,
+		"oAP": "\/assets\/images\/featured-games\/30_west.png",
 		"oF": 0,
 		"opt": 0
 		},
@@ -519,7 +580,7 @@
 		},
 	"\/assets\/images\/featured-games\/3_pretty_pirates\/pirates_cover.png": {
 		"ft": 32768,
-		"iS": 75746,
+		"iS": 308560,
 		"oA": 0,
 		"oAP": "\/assets\/images\/featured-games\/3_pretty_pirates\/pirates_cover.png",
 		"oF": 0,
@@ -535,7 +596,7 @@
 		},
 	"\/assets\/images\/featured-games\/4_merlin_wand\/merlin_cover.png": {
 		"ft": 32768,
-		"iS": 72084,
+		"iS": 312280,
 		"oA": 0,
 		"oAP": "\/assets\/images\/featured-games\/4_merlin_wand\/merlin_cover.png",
 		"oF": 0,
@@ -551,7 +612,7 @@
 		},
 	"\/assets\/images\/featured-games\/5_journey_olympus\/olympus_cover.png": {
 		"ft": 32768,
-		"iS": 85933,
+		"iS": 340461,
 		"oA": 0,
 		"oAP": "\/assets\/images\/featured-games\/5_journey_olympus\/olympus_cover.png",
 		"oF": 0,
@@ -559,7 +620,7 @@
 		},
 	"\/assets\/images\/featured-games\/6_sacred_temple\/sacred_cover.png": {
 		"ft": 32768,
-		"iS": 60480,
+		"iS": 237324,
 		"oA": 0,
 		"oAP": "\/assets\/images\/featured-games\/6_sacred_temple\/sacred_cover.png",
 		"oF": 0,
@@ -583,25 +644,17 @@
 		},
 	"\/assets\/images\/featured-games\/7_heart_egypt\/egypt_cover.png": {
 		"ft": 32768,
-		"iS": 76936,
+		"iS": 296891,
 		"oA": 0,
 		"oAP": "\/assets\/images\/featured-games\/7_heart_egypt\/egypt_cover.png",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/assets\/images\/featured-games\/8_paleo_wilds\/paleo_1.jpg": {
-		"ft": 16384,
-		"iS": 217409,
-		"oA": 0,
-		"oAP": "\/assets\/images\/featured-games\/8_paleo_wilds\/paleo_1.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/assets\/images\/featured-games\/8_paleo_wilds\/paleo_cover.png": {
+	"\/assets\/images\/featured-games\/8_88_delights.png": {
 		"ft": 32768,
-		"iS": 57204,
+		"iS": 284829,
 		"oA": 0,
-		"oAP": "\/assets\/images\/featured-games\/8_paleo_wilds\/paleo_cover.png",
+		"oAP": "\/assets\/images\/featured-games\/8_88_delights.png",
 		"oF": 0,
 		"opt": 0
 		},
@@ -615,7 +668,7 @@
 		},
 	"\/assets\/images\/featured-games\/9_sleepy_hollow\/sleepy_cover.png": {
 		"ft": 32768,
-		"iS": 76857,
+		"iS": 300896,
 		"oA": 0,
 		"oAP": "\/assets\/images\/featured-games\/9_sleepy_hollow\/sleepy_cover.png",
 		"oF": 0,
@@ -764,6 +817,15 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/jquery.fancybox-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/js\/owl.animate.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/owl.animate-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0

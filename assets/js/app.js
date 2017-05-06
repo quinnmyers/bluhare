@@ -1,17 +1,15 @@
 //main carousel
 
 
-
 $(document).ready(function () {
   var mainCarousel = $('.main-carousel');
   mainCarousel.owlCarousel({
     loop:true,
     autoplay: true,
-    autoplayTimeout: 5000,
-    speed: 2000,
+    autoplayTimeout: 3000,
     margin:10,
     nav:false,
-    items:1,
+    items: 1,
     singleItem: true,
     animateOut: 'fadeOut'
   });
@@ -25,11 +23,13 @@ $(document).ready(function () {
     nav:true,
     items:3,
     autoplay: true,
-    smartSpeed: 400,
-    autoplayTimeout: 1000,
-    autoplaySpeed: 300,
+    autoplayTimeout: 3000,
   });
 });
+
+
+
+
 // normal toggle for mobile nav
 /*$(document).ready(function () {
   $('.hamburger').on('click', function () {
