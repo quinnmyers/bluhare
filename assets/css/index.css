@@ -1029,9 +1029,9 @@ p, h1, h2, h3, h4, h5, h6 {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
-        -webkit-box-pack: justify;
-            -ms-flex-pack: justify;
-                justify-content: space-between;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
         -webkit-box-align: center;
             -ms-flex-align: center;
                 align-items: center;
@@ -1050,17 +1050,6 @@ p, h1, h2, h3, h4, h5, h6 {
           margin-top: -1px;
           letter-spacing: 1px;
           color: white; }
-        .main-wrapper .hire-us-panel .hire-us-button-container .hire-us-button .hire-left-spacer {
-          width: 50px; }
-        .main-wrapper .hire-us-panel .hire-us-button-container .hire-us-button .click-icon {
-          margin-top: 30px;
-          height: 50px;
-          width: 50px;
-          background-image: url("../images/click-icon.svg");
-          background-position: center;
-          background-repeat: no-repeat; }
-          .main-wrapper .hire-us-panel .hire-us-button-container .hire-us-button .click-icon p {
-            color: red; }
   .main-wrapper .play-our-games-panel {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1202,14 +1191,17 @@ p, h1, h2, h3, h4, h5, h6 {
       margin-top: 6px;
       font-size: 12pt;
       letter-spacing: 1px; }
-    .main-wrapper .hire-us-panel .hire-us-button {
-      height: 45px;
-      width: 200px; }
-      .main-wrapper .hire-us-panel .hire-us-button p {
-        font-size: 16pt;
-        margin-top: -1px;
-        letter-spacing: 1px;
-        color: white; }
+    .main-wrapper .hire-us-panel .hire-us-button-container {
+      width: 200px;
+      height: 45px; }
+      .main-wrapper .hire-us-panel .hire-us-button-container .hire-us-button {
+        height: 45px;
+        width: 200px; }
+        .main-wrapper .hire-us-panel .hire-us-button-container .hire-us-button p {
+          font-size: 16pt;
+          margin-top: -1px;
+          letter-spacing: 1px;
+          color: white; }
   .main-wrapper .play-our-games-panel {
     height: 250px;
     width: 100%; }
@@ -1265,14 +1257,17 @@ p, h1, h2, h3, h4, h5, h6 {
       margin-top: 6px;
       font-size: 11pt;
       letter-spacing: 1px; }
-    .main-wrapper .hire-us-panel .hire-us-button {
+    .main-wrapper .hire-us-panel .hire-us-button-container {
       height: 40px;
       width: 200px; }
-      .main-wrapper .hire-us-panel .hire-us-button p {
-        font-size: 14pt;
-        margin-top: -1px;
-        letter-spacing: 1px;
-        color: white; }
+      .main-wrapper .hire-us-panel .hire-us-button-container .hire-us-button {
+        height: 40px;
+        width: 200px; }
+        .main-wrapper .hire-us-panel .hire-us-button-container .hire-us-button p {
+          font-size: 14pt;
+          margin-top: -1px;
+          letter-spacing: 1px;
+          color: white; }
   .main-wrapper .play-our-games-panel {
     height: 225px;
     width: 100%; }
@@ -1301,20 +1296,23 @@ p, h1, h2, h3, h4, h5, h6 {
   -ms-flex-item-align: center;
       align-self: center;
   margin: auto; }
-  .navigation-wrapper .logo {
+  .navigation-wrapper .logo-link-wrapper {
     height: 150px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    width: 300px;
-    margin-left: 10px;
-    background-image: url("../images/bluhare-logo.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: bottom; }
+    width: 300px; }
+    .navigation-wrapper .logo-link-wrapper .logo {
+      height: 150px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      width: 300px;
+      margin-left: 10px;
+      background-image: url("../images/bluhare-logo.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: bottom; }
   .navigation-wrapper .desktop-nav-container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1389,15 +1387,18 @@ p, h1, h2, h3, h4, h5, h6 {
   display: flex !important; }
 
 @media (max-width: 1005px) {
-  .navigation-wrapper .logo {
+  .navigation-wrapper .logo-link-wrapper .logo {
     margin-top: 10px; }
   .navigation-wrapper .desktop-nav-container .desktop-nav .desktop-nav-item:nth-child(5) {
     padding-right: 15px; } }
 
 @media (max-width: 800px) {
-  .navigation-wrapper .logo {
+  .navigation-wrapper .logo-link-wrapper {
     height: 80px;
     width: 250px; }
+    .navigation-wrapper .logo-link-wrapper .logo {
+      height: 80px;
+      width: 250px; }
   .navigation-wrapper .desktop-nav-container .desktop-nav {
     margin-right: 15px; }
     .navigation-wrapper .desktop-nav-container .desktop-nav .desktop-nav-item {
@@ -1410,9 +1411,12 @@ p, h1, h2, h3, h4, h5, h6 {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column; }
-    .navigation-wrapper .logo {
+    .navigation-wrapper .logo-link-wrapper {
       height: 60px;
       width: 200px; }
+      .navigation-wrapper .logo-link-wrapper .logo {
+        height: 60px;
+        width: 200px; }
     .navigation-wrapper .hamburger {
       display: -webkit-box;
       display: -ms-flexbox;

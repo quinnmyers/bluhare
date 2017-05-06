@@ -4,17 +4,20 @@
   max-width: 1000px
   align-self: center
   margin: auto
-  .logo
+  .logo-link-wrapper
     height: 150px
-    display: flex
-    align-items: center
     width: 300px
-    margin-left: 10px
-    background:
-      image: url('../images/bluhare-logo.png')
-      repeat: no-repeat
-      size: contain
-      position: bottom
+    .logo
+      height: 150px
+      display: flex
+      align-items: center
+      width: 300px
+      margin-left: 10px
+      background:
+        image: url('../images/bluhare-logo.png')
+        repeat: no-repeat
+        size: contain
+        position: bottom
   .desktop-nav-container
     display: flex
     justify-content: flex-end
@@ -73,8 +76,9 @@
 
 @media (max-width: 1005px)
   .navigation-wrapper
-    .logo
-      margin-top: 10px
+    .logo-link-wrapper
+      .logo
+        margin-top: 10px
     .desktop-nav-container
       .desktop-nav
         .desktop-nav-item
@@ -84,9 +88,12 @@
 
 @media (max-width: 800px)
   .navigation-wrapper
-    .logo
+    .logo-link-wrapper
       height: 80px
       width: 250px
+      .logo
+        height: 80px
+        width: 250px
     .desktop-nav-container
       .desktop-nav
         margin-right: 15px
@@ -96,9 +103,12 @@
 @media (max-width: 680px)
   .navigation-wrapper
     flex-direction: column
-    .logo
+    .logo-link-wrapper
       height: 60px
       width: 200px
+      .logo
+        height: 60px
+        width: 200px
     .hamburger
       display: flex
       align-self: center
