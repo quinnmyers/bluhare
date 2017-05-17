@@ -21,10 +21,26 @@
         .featured-title-7, .featured-title-8, .featured-title-9,
         .featured-title-10, .featured-title-11, .featured-title-12, .featured-title-13, .featured-title-14, .featured-title-15, .featured-title-16, .featured-title-17, .featured-title-18, .featured-title-19, .featured-title-20, .featured-title-21, .featured-title-22, .featured-title-23, .featured-title-24, .featured-title-25, .featured-title-26, .featured-title-27,
         .featured-title-28, .featured-title-29,
-        .featured-title-30 {
+        .featured-title-30, .featured-title-31, .featured-title-32, .featured-title-33 {
           display: flex;
+          justify-content: flex-end;
           height: 250px;
           width: 250px;
+          margin: 10px;
+          &:hover {
+            transform: scale(1.05);
+            transition: transform 0.25s ease-in-out;
+          }
+          .play-icon {
+            height: 35px;
+            width: 35px;
+            background-image: url(../images/GameIcon_VideoIcon.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            margin: 10px;
+            float: right;
+          }
         }
         .featured-title-1 {
           background-image:url(../images/featured-games/1_tinseltown/tinsel_cover.png);
@@ -146,6 +162,18 @@
           background-image:url(../images/featured-games/30_west.png);
           background-size: cover;
         }
+        .featured-title-31 {
+          background-image:url(../images/featured-games/31_deep_seas.png);
+          background-size: cover;
+        }
+        .featured-title-32 {
+          background-image:url(../images/featured-games/32_dragons_pheonix.png);
+          background-size: cover;
+        }
+        .featured-title-33 {
+          background-image:url(../images/featured-games/33_jungle_story.png);
+          background-size: cover;
+        }
 
       }
     }
@@ -165,7 +193,7 @@
       .featured-title-19, .featured-title-20, .featured-title-21,
       .featured-title-22, .featured-title-23, .featured-title-24,
       .featured-title-25, .featured-title-26, .featured-title-27, .featured-title-28, .featured-title-29,
-      .featured-title-30{
+      .featured-title-30, .featured-title-31, .featured-title-32, .featured-title-33{
         height: 200px !important;
         width: 200px !important;
       }
@@ -187,7 +215,7 @@
       .featured-title-19, .featured-title-20, .featured-title-21,
       .featured-title-22, .featured-title-23, .featured-title-24,
       .featured-title-25, .featured-title-26, .featured-title-27, .featured-title-28, .featured-title-29,
-      .featured-title-30{
+      .featured-title-30, .featured-title-31, .featured-title-32, .featured-title-33{
         height: 175px !important;
         width: 175px !important;
       }
@@ -208,7 +236,7 @@
       .featured-title-19, .featured-title-20, .featured-title-21,
       .featured-title-22, .featured-title-23, .featured-title-24,
       .featured-title-25, .featured-title-26, .featured-title-27, .featured-title-28, .featured-title-29,
-      .featured-title-30{
+      .featured-title-30, .featured-title-31, .featured-title-32, .featured-title-33{
         height: 150px !important;
         width: 155px !important;
       }
@@ -235,7 +263,7 @@
         .featured-title-19, .featured-title-20, .featured-title-21,
         .featured-title-22, .featured-title-23, .featured-title-24,
         .featured-title-25, .featured-title-26, .featured-title-27, .featured-title-28, .featured-title-29,
-        .featured-title-30 {
+        .featured-title-30, .featured-title-31, .featured-title-32, .featured-title-33{
           height: 250px !important;
           width: 250px !important;
           margin-bottom: 30px !important;

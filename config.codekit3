@@ -683,6 +683,39 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/assets\/images\/featured-games\/31_deep_seas.png": {
+		"ft": 32768,
+		"iS": 87074,
+		"oA": 0,
+		"oAP": "\/assets\/images\/featured-games\/31_deep_seas.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/featured-games\/32_dragons_pheonix.png": {
+		"ft": 32768,
+		"iS": 7728253,
+		"oA": 0,
+		"oAP": "\/assets\/images\/featured-games\/32_dragons_pheonix.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/featured-games\/33_jungle_story.png": {
+		"ft": 32768,
+		"iS": 7694133,
+		"oA": 0,
+		"oAP": "\/assets\/images\/featured-games\/33_jungle_story.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/assets\/images\/featured-games\/3_pretty_pirates\/pirates_1.jpg": {
 		"ft": 16384,
 		"iS": 224968,
@@ -850,6 +883,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/GameIcon_VideoIcon.png": {
+		"ft": 32768,
+		"iS": 20546,
+		"oA": 0,
+		"oAP": "\/assets\/images\/GameIcon_VideoIcon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/assets\/images\/gemini-logo.jpg": {

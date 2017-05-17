@@ -1050,6 +1050,17 @@ p, h1, h2, h3, h4, h5, h6 {
           margin-top: -1px;
           letter-spacing: 1px;
           color: white; }
+        .main-wrapper .hire-us-panel .hire-us-button-container .hire-us-button .click-icon {
+          position: absolute;
+          height: 50px;
+          margin-top: 15px;
+          width: 50px;
+          background-image: url("../images/click-icon.png");
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: contain; }
+          .main-wrapper .hire-us-panel .hire-us-button-container .hire-us-button .click-icon p {
+            color: red; }
   .main-wrapper .play-our-games-panel {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1749,12 +1760,42 @@ p, h1, h2, h3, h4, h5, h6 {
       .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-7, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-8, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-9,
       .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-10, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-11, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-12, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-13, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-14, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-15, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-16, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-17, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-18, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-19, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-20, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-21, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-22, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-23, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-24, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-25, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-26, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-27,
       .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-28, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-29,
-      .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-30 {
+      .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-30, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-31, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-32, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-33 {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
+        -webkit-box-pack: end;
+            -ms-flex-pack: end;
+                justify-content: flex-end;
         height: 250px;
-        width: 250px; }
+        width: 250px;
+        margin: 10px; }
+        .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-1:hover, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-2:hover, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-3:hover,
+        .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-4:hover, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-5:hover, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-6:hover,
+        .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-7:hover, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-8:hover, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-9:hover,
+        .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-10:hover, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-11:hover, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-12:hover, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-13:hover, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-14:hover, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-15:hover, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-16:hover, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-17:hover, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-18:hover, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-19:hover, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-20:hover, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-21:hover, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-22:hover, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-23:hover, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-24:hover, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-25:hover, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-26:hover, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-27:hover,
+        .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-28:hover, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-29:hover,
+        .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-30:hover, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-31:hover, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-32:hover, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-33:hover {
+          -webkit-transform: scale(1.05);
+                  transform: scale(1.05);
+          -webkit-transition: -webkit-transform 0.25s ease-in-out;
+          transition: -webkit-transform 0.25s ease-in-out;
+          transition: transform 0.25s ease-in-out;
+          transition: transform 0.25s ease-in-out, -webkit-transform 0.25s ease-in-out; }
+        .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-1 .play-icon, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-2 .play-icon, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-3 .play-icon,
+        .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-4 .play-icon, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-5 .play-icon, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-6 .play-icon,
+        .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-7 .play-icon, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-8 .play-icon, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-9 .play-icon,
+        .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-10 .play-icon, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-11 .play-icon, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-12 .play-icon, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-13 .play-icon, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-14 .play-icon, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-15 .play-icon, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-16 .play-icon, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-17 .play-icon, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-18 .play-icon, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-19 .play-icon, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-20 .play-icon, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-21 .play-icon, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-22 .play-icon, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-23 .play-icon, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-24 .play-icon, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-25 .play-icon, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-26 .play-icon, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-27 .play-icon,
+        .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-28 .play-icon, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-29 .play-icon,
+        .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-30 .play-icon, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-31 .play-icon, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-32 .play-icon, .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-33 .play-icon {
+          height: 35px;
+          width: 35px;
+          background-image: url(../images/GameIcon_VideoIcon.png);
+          background-size: contain;
+          background-repeat: no-repeat;
+          background-position: center;
+          margin: 10px;
+          float: right; }
       .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-1 {
         background-image: url(../images/featured-games/1_tinseltown/tinsel_cover.png);
         background-size: cover; }
@@ -1845,6 +1886,15 @@ p, h1, h2, h3, h4, h5, h6 {
       .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-30 {
         background-image: url(../images/featured-games/30_west.png);
         background-size: cover; }
+      .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-31 {
+        background-image: url(../images/featured-games/31_deep_seas.png);
+        background-size: cover; }
+      .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-32 {
+        background-image: url(../images/featured-games/32_dragons_pheonix.png);
+        background-size: cover; }
+      .main-wrapper .our-work .featured-titles-container .featured-title-row .featured-title-33 {
+        background-image: url(../images/featured-games/33_jungle_story.png);
+        background-size: cover; }
 
 @media (max-width: 1000px) {
   .main-wrapper .featured-titles-container .featured-title-row {
@@ -1858,7 +1908,7 @@ p, h1, h2, h3, h4, h5, h6 {
     .main-wrapper .featured-titles-container .featured-title-row .featured-title-19, .main-wrapper .featured-titles-container .featured-title-row .featured-title-20, .main-wrapper .featured-titles-container .featured-title-row .featured-title-21,
     .main-wrapper .featured-titles-container .featured-title-row .featured-title-22, .main-wrapper .featured-titles-container .featured-title-row .featured-title-23, .main-wrapper .featured-titles-container .featured-title-row .featured-title-24,
     .main-wrapper .featured-titles-container .featured-title-row .featured-title-25, .main-wrapper .featured-titles-container .featured-title-row .featured-title-26, .main-wrapper .featured-titles-container .featured-title-row .featured-title-27, .main-wrapper .featured-titles-container .featured-title-row .featured-title-28, .main-wrapper .featured-titles-container .featured-title-row .featured-title-29,
-    .main-wrapper .featured-titles-container .featured-title-row .featured-title-30 {
+    .main-wrapper .featured-titles-container .featured-title-row .featured-title-30, .main-wrapper .featured-titles-container .featured-title-row .featured-title-31, .main-wrapper .featured-titles-container .featured-title-row .featured-title-32, .main-wrapper .featured-titles-container .featured-title-row .featured-title-33 {
       height: 200px !important;
       width: 200px !important; } }
 
@@ -1872,7 +1922,7 @@ p, h1, h2, h3, h4, h5, h6 {
   .main-wrapper .featured-titles-container .featured-title-19, .main-wrapper .featured-titles-container .featured-title-20, .main-wrapper .featured-titles-container .featured-title-21,
   .main-wrapper .featured-titles-container .featured-title-22, .main-wrapper .featured-titles-container .featured-title-23, .main-wrapper .featured-titles-container .featured-title-24,
   .main-wrapper .featured-titles-container .featured-title-25, .main-wrapper .featured-titles-container .featured-title-26, .main-wrapper .featured-titles-container .featured-title-27, .main-wrapper .featured-titles-container .featured-title-28, .main-wrapper .featured-titles-container .featured-title-29,
-  .main-wrapper .featured-titles-container .featured-title-30 {
+  .main-wrapper .featured-titles-container .featured-title-30, .main-wrapper .featured-titles-container .featured-title-31, .main-wrapper .featured-titles-container .featured-title-32, .main-wrapper .featured-titles-container .featured-title-33 {
     height: 175px !important;
     width: 175px !important; } }
 
@@ -1886,7 +1936,7 @@ p, h1, h2, h3, h4, h5, h6 {
   .main-wrapper .featured-titles-container .featured-title-19, .main-wrapper .featured-titles-container .featured-title-20, .main-wrapper .featured-titles-container .featured-title-21,
   .main-wrapper .featured-titles-container .featured-title-22, .main-wrapper .featured-titles-container .featured-title-23, .main-wrapper .featured-titles-container .featured-title-24,
   .main-wrapper .featured-titles-container .featured-title-25, .main-wrapper .featured-titles-container .featured-title-26, .main-wrapper .featured-titles-container .featured-title-27, .main-wrapper .featured-titles-container .featured-title-28, .main-wrapper .featured-titles-container .featured-title-29,
-  .main-wrapper .featured-titles-container .featured-title-30 {
+  .main-wrapper .featured-titles-container .featured-title-30, .main-wrapper .featured-titles-container .featured-title-31, .main-wrapper .featured-titles-container .featured-title-32, .main-wrapper .featured-titles-container .featured-title-33 {
     height: 150px !important;
     width: 155px !important; } }
 
@@ -1913,7 +1963,7 @@ p, h1, h2, h3, h4, h5, h6 {
       .main-wrapper .featured-titles-container .featured-title-row .featured-title-19, .main-wrapper .featured-titles-container .featured-title-row .featured-title-20, .main-wrapper .featured-titles-container .featured-title-row .featured-title-21,
       .main-wrapper .featured-titles-container .featured-title-row .featured-title-22, .main-wrapper .featured-titles-container .featured-title-row .featured-title-23, .main-wrapper .featured-titles-container .featured-title-row .featured-title-24,
       .main-wrapper .featured-titles-container .featured-title-row .featured-title-25, .main-wrapper .featured-titles-container .featured-title-row .featured-title-26, .main-wrapper .featured-titles-container .featured-title-row .featured-title-27, .main-wrapper .featured-titles-container .featured-title-row .featured-title-28, .main-wrapper .featured-titles-container .featured-title-row .featured-title-29,
-      .main-wrapper .featured-titles-container .featured-title-row .featured-title-30 {
+      .main-wrapper .featured-titles-container .featured-title-row .featured-title-30, .main-wrapper .featured-titles-container .featured-title-row .featured-title-31, .main-wrapper .featured-titles-container .featured-title-row .featured-title-32, .main-wrapper .featured-titles-container .featured-title-row .featured-title-33 {
         height: 250px !important;
         width: 250px !important;
         margin-bottom: 30px !important; } }
