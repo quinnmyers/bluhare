@@ -1055,7 +1055,7 @@ p, h1, h2, h3, h4, h5, h6 {
           height: 50px;
           margin-top: 15px;
           width: 50px;
-          background-image: url("../images/click-icon.png");
+          background-image: url(../images/click-icon.png);
           background-position: center;
           background-repeat: no-repeat;
           background-size: contain; }
